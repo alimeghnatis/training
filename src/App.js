@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import Header from './component/Header.js'
+import Header from './component/Header/Header.js'
 import './App.scss';
 
 function App() {
@@ -7,7 +6,6 @@ function App() {
     <div className="App">
       <Header />
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
