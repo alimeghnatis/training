@@ -1,10 +1,12 @@
 import Header from './component/Header/Header.js'
 import './App.scss';
+import Main from './component/Main/Main.js'
 
 function App() {
   return (
     <div className="App">
       <Header />
+      <Main />
       <header className="App-header">
         <p>
           Edit <code>src/App.js</code> and save to reload.

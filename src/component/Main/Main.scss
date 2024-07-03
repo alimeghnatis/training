@@ -1,0 +1,217 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+.green {
+  background-color: #04aa6d;
+}
+.lemon {
+  background-color: #fff4a3;
+}
+.black {
+  background-color: #282a35;
+}
+.pink {
+  background-color: #ffc0c7;
+}
+
+
+//htmlReview
+.container {
+  main {
+    .html-review {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: #d9eee1;
+      padding: 6rem 2rem 8rem 2rem;
+
+      .left-content { 
+        text-align: center;
+
+        .html-left-title {
+          
+        }
+        .avg-style-leftTitle {
+          //font-size: 9rem;
+          //font-weight: 900;
+          //margin-bottom: 2.5rem;
+          font-size: 5.5rem;
+          font-weight: 900;
+          margin-bottom: 2.5rem;
+        }
+        .html-left-introduction {
+
+        }
+        .avg-style-leftIntroduction {
+          font-size: 1.9rem;
+          font-weight: 500;
+          padding-bottom: 2.5rem;
+          //font-size: 5.5rem;
+          //font-weight: 900;
+          //margin-bottom: 2.5rem;
+        }
+        .html-left-learn-link {
+          color: #fff;
+          margin-bottom: 2.5rem;
+        }
+        .html-left-video-link {
+          margin-bottom: 2.5rem;
+        }
+        .html-left-reference-link {
+          color: #fff;
+          margin-bottom: 2.5rem;
+        }
+        .html-left-certified-link {
+
+        }
+        .avg-style-leftLink {
+          font-size: 1.6rem;
+          font-weight: 600;
+          padding: 1.2rem 0;
+          border-radius: 50rem;
+          width: 20rem;
+          display: inline-block;
+          text-align: center;
+        }
+      }
+
+      .right-content {
+        background-color: #e7e9eb;
+        box-shadow: 2px 4px 10px 0px rgba(0, 0, 0, 0.15);
+        padding: 16px;
+        border-radius: 5px;
+        margin-top: 5.5rem;
+        width: 100%;
+        display: none;
+        .code-board-wrapper {
+      
+        }
+        .avg-style-codeBoard {
+
+        }
+        .html-board-title {
+          margin: 17px 0;
+          font-size: 2.4rem;
+        }
+        .general-code-boarder {
+          //height: 300px;
+          //background-color: #fff;
+          //border-left: 4px solid #04AA6D;
+          //padding: 15px 0 0 15px;
+          //width: 40rem;
+          height: 300px;
+          background-color: #fff;
+          border-left: 4px solid #04AA6D;
+          padding: 15px 0 0 15px;
+          width: 100%;
+        }
+        .avg-style-general-codeBoard {
+
+        }
+
+        .code-space-wrapper {
+      
+        }
+        .doctype-html-code-wrapper {
+      
+        }
+        .bs::before {
+          content: '\003C';
+          color: blue;
+          font-size: 1.5rem;
+        }
+        .bs::after {
+          content: '\003E';
+          color: blue;
+          font-size: 1.5rem;
+        }
+        .bs-doc::before {
+          content: '\003c';
+          color: blue;
+          font-size: 1.5rem;
+        }
+        .bf-doc::after {
+          content: '\003E';
+          color: blue;
+          font-size: 1.5rem;
+        }
+        .brw-cl {
+          color: #ad2d3e;
+        }
+        .html-code {
+          color: red;
+        }
+        .try-it-link {
+          background-color: #04aa6d;
+          padding: 1.2rem 0;
+          color: #fff;
+          text-align: center;
+          margin-top: 2rem;
+          width: 18rem;
+          border-radius: 5rem;
+          font-size: 1.5rem;
+          display: inline-block;
+          font-weight: 600;
+        }
+        .fs-code {
+          font-size: 1.5rem;
+        }
+
+      }
+    }
+  }
+}
+
+@media (min-width: 601px) {
+  .container {
+    main {
+      .html-review {
+        .right-content {
+          display: block;
+        }
+      }
+    }
+  } 
+}
+@media (min-width: 769px) {
+  .container {
+    main {
+      .html-review {
+        .left-content {
+          .avg-style-leftTitle {
+            font-size: 9rem;
+            font-weight: 900;
+            margin-bottom: 2.5rem;
+          }
+        }
+      }
+    }
+  } 
+}
+@media (min-width: 993px) {
+  .container {
+    main {
+      .html-review {
+        flex-direction: row;
+        .right-content {
+          margin-left: 8rem;
+          width: 43rem;
+        }
+      }
+    }
+  }
+}
+
+//.avg-style-leftTitle {
+  //font-size: 5.5rem;
+  //font-weight: 900;
+  //margin-bottom: 2.5rem;
+//}

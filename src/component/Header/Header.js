@@ -18,7 +18,7 @@ function Header() {
         <li><a href="https://google.com">PHP</a></li>
         <li><a href="https://google.com">MySQL</a></li>
       </ul>
-    </div>
+    </div> 
   )
 }
 
