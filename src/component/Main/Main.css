@@ -22,8 +22,76 @@ a {
   background-color: #282a35;
 }
 
+.orange {
+  color: #ff5326;
+}
+
 .pink {
   background-color: #ffc0c7;
+}
+
+.blue {
+  color: blue;
+}
+
+.white-bg {
+  background-color: #fff;
+}
+
+.mt-6 {
+  margin-top: 6rem;
+}
+
+.mb-06 {
+  margin-bottom: 0.6rem;
+}
+
+.ml-2rem {
+  margin-left: 2rem;
+}
+
+.avg-style-leftTitle {
+  font-size: 5.5rem;
+  font-weight: 900;
+  margin-bottom: 2.5rem;
+}
+
+.avg-style-leftIntroduction {
+  font-size: 1.9rem;
+  font-weight: 500;
+  padding-bottom: 2.5rem;
+}
+
+.avg-style-leftLink {
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 1.2rem 0;
+  border-radius: 50rem;
+  width: 20rem;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.fs-code {
+  font-size: 1.5rem;
+}
+
+.brw-cl {
+  color: #ad2d3e;
+}
+
+.try-it-link {
+  background-color: #04aa6d;
+  padding: 1.2rem 0;
+  color: #fff;
+  text-align: center;
+  margin-top: 2rem;
+  width: 18rem;
+  border-radius: 5rem;
+  font-size: 1.5rem;
+  display: inline-block;
+  font-weight: 600;
 }
 
 .container main .html-review {
@@ -32,20 +100,11 @@ a {
   align-items: center;
   flex-direction: column;
   background-color: #d9eee1;
-  padding: 6rem 2rem 8rem 2rem;
+  padding: 0 2rem 6rem 2rem;
 }
 .container main .html-review .left-content {
   text-align: center;
-}
-.container main .html-review .left-content .avg-style-leftTitle {
-  font-size: 5.5rem;
-  font-weight: 900;
-  margin-bottom: 2.5rem;
-}
-.container main .html-review .left-content .avg-style-leftIntroduction {
-  font-size: 1.9rem;
-  font-weight: 500;
-  padding-bottom: 2.5rem;
+  width: 40rem;
 }
 .container main .html-review .left-content .html-left-learn-link {
   color: #fff;
@@ -57,15 +116,6 @@ a {
 .container main .html-review .left-content .html-left-reference-link {
   color: #fff;
   margin-bottom: 2.5rem;
-}
-.container main .html-review .left-content .avg-style-leftLink {
-  font-size: 1.6rem;
-  font-weight: 600;
-  padding: 1.2rem 0;
-  border-radius: 50rem;
-  width: 20rem;
-  display: inline-block;
-  text-align: center;
 }
 .container main .html-review .right-content {
   background-color: #e7e9eb;
@@ -107,38 +157,316 @@ a {
   color: blue;
   font-size: 1.5rem;
 }
-.container main .html-review .right-content .brw-cl {
-  color: #ad2d3e;
-}
 .container main .html-review .right-content .html-code {
   color: red;
 }
-.container main .html-review .right-content .try-it-link {
-  background-color: #04aa6d;
-  padding: 1.2rem 0;
-  color: #fff;
-  text-align: center;
-  margin-top: 2rem;
-  width: 18rem;
-  border-radius: 5rem;
-  font-size: 1.5rem;
-  display: inline-block;
-  font-weight: 600;
+.container main .css-review {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff4a3;
+  padding: 0 2rem 6rem 2rem;
 }
-.container main .html-review .right-content .fs-code {
+.container main .css-review .left-content {
+  text-align: center;
+  width: 40rem;
+}
+.container main .css-review .left-content .css-left-learn-link {
+  color: #fff;
+}
+.container main .css-review .left-content .css-left-reference-link {
+  color: #fff;
+}
+.container main .css-review .right-content {
+  background-color: #e7e9eb;
+  box-shadow: 2px 4px 10px 0px rgba(0, 0, 0, 0.15);
+  padding: 16px;
+  border-radius: 5px;
+  margin-top: 5.5rem;
+  width: 100%;
+  display: none;
+}
+.container main .css-review .right-content .code-board-wrapper .css-board-title {
+  margin: 17px 0;
+  font-size: 2.3rem;
+}
+.container main .css-review .right-content .code-board-wrapper .general-code-boarder {
+  height: 300px;
+  background-color: #fff;
+  border-left: 4px solid #04AA6D;
+  padding: 15px 0 0 15px;
+  width: 100%;
+}
+.container main .css-review .right-content .code-board-wrapper .general-code-boarder .code-space-wrapper .body-selector {
+  display: block;
+  margin-bottom: 0.6rem;
+}
+.container main .css-review .right-content .code-board-wrapper .general-code-boarder .code-space-wrapper .body-selector::after {
+  content: " {";
   font-size: 1.5rem;
+  color: #000;
+  margin-left: 0.5rem;
+}
+.container main .css-review .right-content .code-board-wrapper .general-code-boarder .code-space-wrapper .body-bgc-property {
+  margin-left: 2rem;
+}
+.container main .css-review .right-content .code-board-wrapper .general-code-boarder .code-space-wrapper .body-bgc-property::after {
+  content: ":";
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 500;
+  margin: 0 0.8rem 0 0.3rem;
+}
+.container main .css-review .right-content .code-board-wrapper .general-code-boarder .code-space-wrapper .body-bgc-value::after {
+  content: ";";
+  font-size: 1.5rem;
+  color: #000;
+  margin-left: 0.2rem;
+}
+.container main .css-review .right-content .code-board-wrapper .general-code-boarder .code-space-wrapper .h1-selector {
+  display: block;
+  margin: 3.5rem 0 0.6rem 0;
+}
+.container main .css-review .right-content .code-board-wrapper .general-code-boarder .code-space-wrapper .h1-selector::after {
+  content: " {";
+  font-size: 1.5rem;
+  color: #000;
+  margin-left: 0.5rem;
+}
+.container main .css-review .right-content .code-board-wrapper .general-code-boarder .code-space-wrapper .h1-color-property {
+  margin-left: 2rem;
+}
+.container main .css-review .right-content .code-board-wrapper .general-code-boarder .code-space-wrapper .h1-color-property::after {
+  content: ":";
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 500;
+  margin: 0 0.8rem 0 0.3rem;
+}
+.container main .css-review .right-content .code-board-wrapper .general-code-boarder .code-space-wrapper .h1-color-value::after {
+  content: ";";
+  font-size: 1.5rem;
+  color: #000;
+  margin-left: 0.2rem;
+}
+.container main .css-review .right-content .code-board-wrapper .general-code-boarder .code-space-wrapper .h1-text-align-property {
+  margin-left: 2rem;
+}
+.container main .css-review .right-content .code-board-wrapper .general-code-boarder .code-space-wrapper .h1-text-align-property::after {
+  content: ":";
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 500;
+  margin: 0 0.8rem 0 0.3rem;
+}
+.container main .css-review .right-content .code-board-wrapper .general-code-boarder .code-space-wrapper .h1-text-align-value::after {
+  content: ";";
+  font-size: 1.5rem;
+  color: #000;
+  margin-left: 0.2rem;
+}
+.container main .css-review .right-content .code-board-wrapper .general-code-boarder .code-space-wrapper .p-selector {
+  display: block;
+  margin: 3.5rem 0 0.6rem 0;
+}
+.container main .css-review .right-content .code-board-wrapper .general-code-boarder .code-space-wrapper .p-selector::after {
+  content: " {";
+  font-size: 1.5rem;
+  color: #000;
+  margin-left: 0.5rem;
+}
+.container main .css-review .right-content .code-board-wrapper .general-code-boarder .code-space-wrapper .p-font-family-property {
+  margin-left: 2rem;
+}
+.container main .css-review .right-content .code-board-wrapper .general-code-boarder .code-space-wrapper .p-font-family-property::after {
+  content: ":";
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 500;
+  margin: 0 0.8rem 0 0.3rem;
+}
+.container main .css-review .right-content .code-board-wrapper .general-code-boarder .code-space-wrapper .p-font-family-value::after {
+  content: ";";
+  font-size: 1.5rem;
+  color: #000;
+  margin-left: 0.2rem;
+}
+.container main .js-review {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #282a35;
+  padding: 0 2rem 6rem 2rem;
+}
+.container main .js-review .left-content {
+  text-align: center;
+  width: 40rem;
+}
+.container main .js-review .left-content .js-left-title {
+  color: #fff;
+}
+.container main .js-review .left-content .js-left-introduction {
+  color: #fff;
+}
+.container main .js-review .left-content .js-left-learn-link {
+  color: #fff;
+}
+.container main .js-review .right-content {
+  background-color: #e7e9eb;
+  box-shadow: 2px 4px 10px 0px rgba(0, 0, 0, 0.15);
+  padding: 16px;
+  border-radius: 5px;
+  margin-top: 5.5rem;
+  width: 100%;
+  display: none;
+}
+.container main .js-review .right-content .code-board-wrapper .css-board-title {
+  margin: 17px 0;
+  font-size: 2.3rem;
+}
+.container main .js-review .right-content .code-board-wrapper .general-code-boarder {
+  height: 300px;
+  background-color: #fff;
+  border-left: 4px solid #04AA6D;
+  padding: 15px 0 0 15px;
+  width: 100%;
+}
+.container main .js-review .right-content .code-board-wrapper .general-code-boarder .code-space-wrapper .js-button-codes-wrapper .js-open-button-tag::before {
+  content: "<";
+  color: blue;
+  font-size: 1.5rem;
+}
+.container main .js-review .right-content .code-board-wrapper .general-code-boarder .code-space-wrapper .js-button-codes-wrapper .js-button-att {
+  margin-left: 1rem;
+}
+.container main .js-review .right-content .code-board-wrapper .general-code-boarder .code-space-wrapper .js-button-codes-wrapper .js-close-button-tag::before {
+  content: "<";
+  color: blue;
+  font-size: 1.5rem;
+}
+.container main .js-review .right-content .code-board-wrapper .general-code-boarder .code-space-wrapper .js-button-codes-wrapper .js-close-button-tag::after {
+  content: ">";
+  color: blue;
+  font-size: 1.5rem;
+}
+.container main .js-review .right-content .code-board-wrapper .general-code-boarder .code-space-wrapper .js-script-code-wrapper .open-script-tag {
+  display: block;
+  margin: 2rem 0 0.6rem 0;
+}
+.container main .js-review .right-content .code-board-wrapper .general-code-boarder .code-space-wrapper .js-script-code-wrapper .open-script-tag::before {
+  content: "<";
+  color: blue;
+  font-size: 1.5rem;
+}
+.container main .js-review .right-content .code-board-wrapper .general-code-boarder .code-space-wrapper .js-script-code-wrapper .open-script-tag::after {
+  content: ">";
+  color: blue;
+  font-size: 1.5rem;
+}
+.container main .js-review .right-content .code-board-wrapper .general-code-boarder .code-space-wrapper .js-script-code-wrapper .js-function-name::after {
+  content: " {";
+  font-size: 1.5rem;
+}
+.container main .js-review .right-content .code-board-wrapper .general-code-boarder .code-space-wrapper .js-script-code-wrapper .js-let-variable {
+  margin-left: 2rem;
+}
+.container main .js-review .right-content .code-board-wrapper .general-code-boarder .code-space-wrapper .js-script-code-wrapper .js-doc-getId {
+  display: block;
+}
+.container main .js-review .right-content .code-board-wrapper .general-code-boarder .code-space-wrapper .js-script-code-wrapper .js-x-style-fs {
+  margin-left: 2rem;
+  display: block;
+}
+.container main .js-review .right-content .code-board-wrapper .general-code-boarder .code-space-wrapper .js-script-code-wrapper .js-x-style-color {
+  margin-left: 2rem;
+}
+.container main .js-review .right-content .code-board-wrapper .general-code-boarder .code-space-wrapper .js-script-code-wrapper .close-script-tag::before {
+  content: "<";
+  color: blue;
+  font-size: 1.5rem;
+}
+.container main .js-review .right-content .code-board-wrapper .general-code-boarder .code-space-wrapper .js-script-code-wrapper .close-script-tag::after {
+  content: ">";
+  color: blue;
+  font-size: 1.5rem;
+}
+.container main .python-review {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f3ecea;
+  padding: 0 2rem 6rem 2rem;
+}
+.container main .python-review .left-content {
+  text-align: center;
+  width: 40rem;
+}
+.container main .python-review .left-content .python-left-title {
+  font-size: 6rem;
+}
+.container main .python-review .left-content .python-left-learn-link {
+  color: #fff;
+}
+.container main .python-review .left-content .python-left-reference-link {
+  color: #fff;
+}
+.container main .python-review .right-content {
+  background-color: #e7e9eb;
+  box-shadow: 2px 4px 10px 0px rgba(0, 0, 0, 0.15);
+  padding: 16px;
+  border-radius: 5px;
+  margin-top: 5.5rem;
+  width: 100%;
+  display: none;
+}
+.container main .python-review .right-content .code-board-wrapper .python-board-title {
+  margin: 17px 0;
+  font-size: 2.3rem;
+}
+.container main .python-review .right-content .code-board-wrapper .general-code-boarder {
+  height: 21rem;
+  background-color: #fff;
+  border-left: 4px solid #04AA6D;
+  padding: 15px 0 0 15px;
+  width: 100%;
+}
+.container main .python-review .right-content .code-board-wrapper .general-code-boarder .code-space-wrapper .if {
+  margin-right: 0.5rem;
+}
+.container main .python-review .right-content .code-board-wrapper .general-code-boarder .code-space-wrapper .if-first-value {
+  margin-right: 0.5rem;
+}
+.container main .python-review .right-content .code-board-wrapper .general-code-boarder .code-space-wrapper .if-twice-value {
+  margin: 0 0.3rem 0 0.5rem;
 }
 
 @media (min-width: 601px) {
   .container main .html-review .right-content {
     display: block;
   }
+  .container main .css-review .right-content {
+    display: block;
+  }
+  .container main .js-review .right-content {
+    display: block;
+  }
+  .container main .python-review .right-content {
+    display: block;
+  }
 }
 @media (min-width: 769px) {
-  .container main .html-review .left-content .avg-style-leftTitle {
+  .container main .avg-style-leftTitle {
     font-size: 9rem;
     font-weight: 900;
-    margin-bottom: 2.5rem;
+  }
+  .container main .js-review .left-content .js-left-title {
+    font-size: 7rem;
+  }
+  .container main .python-review .left-content .python-left-title {
+    font-size: 8rem;
   }
 }
 @media (min-width: 993px) {
@@ -146,6 +474,27 @@ a {
     flex-direction: row;
   }
   .container main .html-review .right-content {
+    margin-left: 8rem;
+    width: 43rem;
+  }
+  .container main .css-review {
+    flex-direction: row;
+  }
+  .container main .css-review .right-content {
+    margin-left: 8rem;
+    width: 43rem;
+  }
+  .container main .js-review {
+    flex-direction: row;
+  }
+  .container main .js-review .right-content {
+    margin-left: 8rem;
+    width: 43rem;
+  }
+  .container main .python-review {
+    flex-direction: row;
+  }
+  .container main .python-review .right-content {
     margin-left: 8rem;
     width: 43rem;
   }
