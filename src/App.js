@@ -1,4 +1,5 @@
 import Header from './component/Header/Header.js'
+import Main from './component/Main/Main.js'
 import './App.scss';
 import Main from './component/Main/Main.js'
 
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Header />
       <Main />
+<<<<<<< HEAD
       <header className="App-header">
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -21,6 +23,8 @@ function App() {
           Learn React
         </a>
       </header>
+=======
+>>>>>>> 0237e1b (main was added in App.js file)
     </div>
   );
 }
