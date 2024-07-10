@@ -11,6 +11,7 @@ a {
 }
 
 //global classes
+
 //colors
 .green {
   background-color: #05a66c;
@@ -47,85 +48,101 @@ a {
 .fs-5 {
   font-size: 3.8em;
 }
+
 //lessons section
-.lessons-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 2.5em 0 4em 0;
+.lessons {
+
+  //left content styles
+  &-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2.5em 0 4em 0;
+  }
+
+  &-left-content {
+    text-align: center;
+    width: 30em; 
+  }
+
+  &-left-title {
+    font-weight: 700;
+    margin-bottom: 0.3em;
+  }
+
+  &-left-introduction {
+    font-size: 1.2em;
+    font-weight: 600;
+    padding-bottom: 1.3em;
+  }
+
+  &-left-link {
+    margin-bottom: 1.5em;
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 0.75em 0;
+    border-radius: 2em;
+    width: 11.6em;
+    display: inline-block;
+    text-align: center;
+  }
+
+  //right contents styles
+  &-right-content {
+    background-color: #e7e9eb;
+    box-shadow: 2px 4px 10px 0 rgba(0,0,0,0.15);
+    padding: 1em;
+    border-radius: 0.3em;
+    width: 100%;
+    display: none;
+    text-align: start;
+    margin-top: 1em;
+    color: #000;
+  }
+
+  &-right-codeBoard-title {
+    margin: 0.6em 0 0.8em 0;
+    font-size: 1.6em;
+    font-weight: 600;
+  }
+
+  &-right-general-codeBoard {
+    height: 19em;
+    background-color: #fff;
+    border-left: 4px solid #04AA6D;
+    padding: 15px 0 0 15px;
+  }
+
+  &-right-try-it-link {
+    background-color: #04aa6d;
+    padding: 0.75em 0;
+    color: #fff;
+    text-align: center;
+    margin-top: 1em;
+    width: 11.4em;
+    border-radius: 2em;
+    font-size: 1.1em;
+    display: inline-block;
+    font-weight: 600;
+  }
 }
 
-.lessons-left-content {
-  text-align: center;
-  width: 30em; 
-}
-.lessons-left-title {
-  font-weight: 700;
-  margin-bottom: 0.3em;
-}
-.lessons-left-introduction {
-  font-size: 1.2em;
-  font-weight: 600;
-  padding-bottom: 1.3em;
-}
-.lessons-left-link {
-  margin-bottom: 1.5em;
-  font-size: 1.1em;
-  font-weight: 600;
-  padding: 0.75em 0;
-  border-radius: 2em;
-  width: 11.6em;
-  display: inline-block;
-  text-align: center;
-}
-
-.lessons-right-content {
-  background-color: #e7e9eb;
-  box-shadow: 2px 4px 10px 0 rgba(0,0,0,0.15);
-  padding: 1em;
-  border-radius: 0.3em;
-  width: 100%;
-  display: none;
-  text-align: start;
-  margin-top: 1em;
-  color: #000;
-}
-.lessons-right-codeBoard-title {
-  margin: 0.6em 0 0.8em 0;
-  font-size: 1.6em;
-  font-weight: 600;
-}
-.lessons-right-general-codeBoard {
-  height: 19em;
-  background-color: #fff;
-  border-left: 4px solid #04AA6D;
-  padding: 15px 0 0 15px;
-}
-.lessons-right-try-it-link {
-  background-color: #04aa6d;
-  padding: 0.75em 0;
-  color: #fff;
-  text-align: center;
-  margin-top: 1em;
-  width: 11.4em;
-  border-radius: 2em;
-  font-size: 1.1em;
-  display: inline-block;
-  font-weight: 600;
-}
+//style via ID
 #html-review {
   background-color: #d9eee1;
 }
 
 //responsive
 @media (min-width:601px) {
-  .lessons-section { 
-    padding: 1em 2em 3.5em 2em;
-  }
-  .lessons-right-content {
-    display: block ;
-  }
+  .lessons {
+    &-section { 
+      padding: 1em 2em 3.5em 2em;
+    }
+    &-right-content {
+      display: block ;
+    }
+  } 
 }
 @media (min-width:769px) {
   .fs-4 {
@@ -139,15 +156,17 @@ a {
   }
 }
 @media (min-width:992px) {
-  .lessons-section {
-    flex-direction: row;
-    padding: 2.5em 2em;
-  }
-  .lessons-left-content {
-    margin: 0 3em 3em 0;
-  }
-  .lessons-right-content {
-    width: 25em;
-    margin-top: 0;
-  }
+  .lessons {
+    &-section {
+      flex-direction: row;
+      padding: 2.5em 2em;
+    }
+    &-left-content {
+      margin: 0 3em 3em 0;
+    }
+    &-right-content {
+      width: 25em;
+      margin-top: 0;
+    }
+  } 
 }
