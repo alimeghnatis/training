@@ -37,7 +37,12 @@ a {
   background-color: #fff;
   color: #000;
 }
-
+.green-smooth {
+  background-color: #d9eee1;
+}
+.light-blue {
+  background-color: #e7e9eb;
+}
 //font size
 .fs-4 {
   font-size: 3.8em; 
@@ -47,6 +52,16 @@ a {
 }
 .fs-5 {
   font-size: 3.8em;
+}
+.link {
+  margin-bottom: 1.5em;
+  font-size: 1.1em;
+  font-weight: 600;
+  padding: 0.75em 0;
+  border-radius: 2em;
+  width: 11.6em;
+  display: inline-block;
+  text-align: center;
 }
 
 //lessons section
@@ -62,8 +77,7 @@ a {
   }
 
   &-left-content {
-    text-align: center;
-    width: 30em; 
+    text-align: center; 
   }
 
   &-left-title {
@@ -75,18 +89,7 @@ a {
     font-size: 1.2em;
     font-weight: 600;
     padding-bottom: 1.3em;
-  }
-
-  &-left-link {
-    margin-bottom: 1.5em;
-    font-size: 1.1em;
-    font-weight: 600;
-    padding: 0.75em 0;
-    border-radius: 2em;
-    width: 11.6em;
-    display: inline-block;
-    text-align: center;
-  }
+  } 
 
   //right contents styles
   &-right-content {
@@ -128,45 +131,110 @@ a {
   }
 }
 
-//style via ID
-#html-review {
-  background-color: #d9eee1;
+//cards section
+.cards {
+  padding: 5em 1em;
+
+  &-section {
+    color: black;
+    border-radius: 0.3em;
+    margin-bottom: 1.1em;
+    padding: 0 1em;
+    min-width: 14em;
+  }
+
+  &-content-wrapper {
+    padding: 2.5em 0 0.9em 0;
+  }
+
+  &-title {
+    font-size: 2.8em;
+    font-weight: 700;
+    margin-bottom: 0.4em;
+  }
+
+  &-introduction-wrapper {
+    height: 4em;
+  } 
+
+  &-introduction {
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #3a3a3a;
+  }
 }
 
 //responsive
 @media (min-width:601px) {
   .lessons {
+
     &-section { 
       padding: 1em 2em 3.5em 2em;
     }
+
     &-right-content {
       display: block ;
     }
-  } 
+  }
+
+  .cards {
+    padding: 5em 1.2em;
+
+    &-section {
+      margin-bottom: 1.4em;
+    }
+  }
 }
 @media (min-width:769px) {
   .fs-4 {
     font-size: 4.4em;
   }
+
   .fs-3 {
     font-size: 6.2em;
   }
+
   .fs-5 {
     font-size: 5em;
+  }
+
+  .cards {
+    padding: 5em 2em;
+
+    &-section {
+      margin-bottom: 2em;
+    }
   }
 }
 @media (min-width:992px) {
   .lessons {
+
     &-section {
       flex-direction: row;
       padding: 2.5em 2em;
     }
+
     &-left-content {
       margin: 0 3em 3em 0;
+      width: 30em;
     }
+
     &-right-content {
       width: 25em;
       margin-top: 0;
-    }
+    } 
   } 
+
+  .cards {
+    padding: 5em 0;
+
+    &-container {
+      display: grid;
+      grid-template-columns: 45% 45%;
+      grid-gap: 0.5em 3.6em;
+      justify-content: center;
+      max-width: 86em;
+      margin: 0 auto;
+    }
+  }
 }
