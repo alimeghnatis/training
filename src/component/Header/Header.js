@@ -1,73 +1,42 @@
 import './header.scss'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope, faXmark } from '@fortawesome/free-solid-svg-icons'
 
-function Header() {
+
+function Header() {  
   return (
-
     <header className="header">
-    <div className="left-content">
+      <div className="left-content">
+
           <div className="w3s-image-wrapper">
             <a className="logo-link" href="#">
-              <img className="w3s-logo" src={require('./../../images/channels4_profile.jpg')} />
+              <img className="w3s-logo" src={require('./../image/channels4_profile.jpg')} />
             </a>
           </div>
+         
           <nav className="nav-menu">
-
-
             <ul>
-              <li><a href="#" className="nav-link ml"> Tutorials
-                <img className="down-arrow" src={require('./../../images/back-svgrepo-com.png')} alt="" /></a>
-                  <ul className="dropdown">
-                    <li><a href="#">HTML and CSS</a></li>
-                    <li><a href="#">JavaScript</a></li>
-                    <li><a href="#"c>Backend</a></li>
-                    <li><a href="#">Data Analytics</a></li>
-                    <li><a href="#">Web Building</a></li>
-                  </ul>
+              <li id="tutorial-btn"><a href="#" className="nav-link ml"> Tutorials
+                <img className="down-arrow" src={require('./../image/back-up-down-svgrepo-com.png')} alt="" /></a>
               </li>
             </ul>
-
             <ul>
               <li><a href="#" className="nav-link ml">Exercises
-                <img className="down-arrow" src={require('./../../images/back-svgrepo-com.png')} alt="" /></a>
-                  <ul className="dropdown">
-                    <li><a href="#">HTML and CSS</a></li>
-                    <li><a href="#">JavaScript</a></li>
-                    <li><a href="#">Backend</a></li>
-                    <li><a href="#">Data Analytics</a></li>
-                    <li><a href="#">Web Building</a></li>
-                  </ul>
+                <img className="down-arrow" src={require('./../image/back-up-down-svgrepo-com.png')} alt="" /></a>
               </li>
             </ul>
-
             <ul>
               <li><a href="#" className="nav-link ml">Certificates
-                <img className="down-arrow" src={require('./../../images/back-svgrepo-com.png')} alt="" /></a>
-                  <ul className="dropdown">
-                    <li><a href="#">HTML and CSS</a></li>
-                    <li><a href="#">JavaScript</a></li>
-                    <li><a href="#">Backend</a></li>
-                    <li><a href="#">Data Analytics</a></li>
-                    <li><a href="#">Programs</a></li>
-                  </ul>
+                <img className="down-arrow" src={require('./../image/back-up-down-svgrepo-com.png')} alt="" /></a>
               </li>
             </ul>  
-
             <ul>
               <li><a href="#" className="nav-link ml">Services
-                <img className="down-arrow" src={require('./../../images/back-svgrepo-com.png')} alt="" /></a>
-                  <ul className="dropdown">
-                    <li><a href="#">Free Tutorials</a></li>
-                    <li><a href="#">References</a></li>
-                    <li><a href="#">Create a Website</a></li>
-                    <li><a href="#">Exercises</a></li>
-                    <li><a href="#">Quizzes</a></li>
-                    <li><a href="#">Get Certified</a></li>
-                  </ul>
+                <img className="down-arrow" src={require('./../image/back-up-down-svgrepo-com.png')} alt="" /></a>
               </li>
             </ul>  
-
-
           </nav>
+
           <div className="search-input-wrapper">
             <input className="search-input" type="search" placeholder="Search..." />
             <div className="search-icon-wrapper">
@@ -107,9 +76,40 @@ function Header() {
           </div>
         </div>
       </header>
-    
 
-
+      <main> 
+        <div className="nested-navigation-container nested_navigation_hidden" id="nested-navigation-container-id">
+          <div className="nested-navigation-container-close-btn" >
+            <button className="clbtn">
+            <FontAwesomeIcon icon={faXmark} />
+            </button>
+          </div>
+          <div className="nested-navigation-container-content">
+            <h1 className="content-h1">Tutorials</h1>
+            <div className="nested-navigation-container-content-data">
+              <div className="nested-navigation-item">
+                <h2>HTML and CSS</h2>
+                <a href="" className="a11"><span className="span1">Learn</span><span className="span2">HTML</span></a>
+                <a href="" className="a11"><span className="span1">Learn</span><span className="span2">CSS</span></a>
+                <a href="" className="a11"><span className="span1">Learn</span><span className="span2">RWD</span></a>
+              </div>
+              <div className="nested-navigation-item">
+                <h2 className="item-h2">JavaScript</h2>
+                <a href="" className="a11"><span className="span1">Learn</span><span className="span2">JavaScript</span></a>
+                <a href="" className="a11"><span className="span1">Learn</span><span className="span2">React</span></a>
+                <a href="" className="a11"><span className="span1">Learn</span><span className="span2">jQuery</span></a>
+              </div>
+              <div className="nested-navigation-item">
+                <h2>Backend</h2>
+                <a href="" className="a11"><span className="span1">Learn</span><span className="span2">Python</span></a>
+                <a href="" className="a11"><span className="span1">Learn</span><span className="span2">SQL</span></a>
+                <a href="" className="a11"><span className="span1">Learn</span><span className="span2">MySql</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>  
+      
   )
 }
 
