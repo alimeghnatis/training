@@ -180,6 +180,137 @@ function Main() {
         </div>
       </div>
       
+      {/* tutorials */}
+      <div className="tutorials black">
+        <div className="tutorials-container">
+          <div className="tutorials-btn-wrapper tutorials-grid-child-styles">
+            <a className="tutorials-btn Blackish-pink tutorials-btn-diff-styles" href="#">C</a>
+          </div>
+          <div className="tutorials-btn-wrapper tutorials-grid-child-styles tutorials-grid-col-styles">
+            <a className="tutorials-btn yellow-smooth tutorials-btn-diff-styles" href="#">C#</a>
+          </div>
+          <div className="tutorials-btn-wrapper">
+            <a className="tutorials-btn white-smooth" href="#">R</a>
+          </div>
+          <div className="tutorials-btn-wrapper">
+            <a className="tutorials-btn light-green" href="#">Kotlin</a>
+          </div>
+          <div className="tutorials-btn-wrapper">
+            <a className="tutorials-btn cyan" href="#">Node.js</a>
+          </div>
+          <div className="tutorials-btn-wrapper">
+            <a className="tutorials-btn Blackish-pink" href="#">React</a>
+          </div>
+          <div className="tutorials-btn-wrapper">
+            <a className="tutorials-btn yellow-smooth" href="#">JSON</a>
+          </div>
+          <div className="tutorials-btn-wrapper">
+            <a className="tutorials-btn white-smooth" href="#">Vue</a>
+          </div>
+          <div className="tutorials-btn-wrapper">
+            <a className="tutorials-btn light-green" href="#">MySQL</a>
+          </div>
+          <div className="tutorials-btn-wrapper">
+            <a className="tutorials-btn cyan" href="#">XML</a>
+          </div>
+          <div className="tutorials-btn-wrapper">
+            <a className="tutorials-btn Blackish-pink" href="#">Sass</a>
+          </div>
+          <div className="tutorials-btn-wrapper">
+            <a className="tutorials-btn yellow-smooth" href="#">Icons</a>
+          </div>
+          <div className="tutorials-btn-wrapper">
+            <a className="tutorials-btn white-smooth" href="#">RWD</a>
+          </div>
+          <div className="tutorials-btn-wrapper">
+            <a className="tutorials-btn light-green" href="#">Graphics</a>
+          </div>
+          <div className="tutorials-btn-wrapper">
+            <a className="tutorials-btn cyan" href="#">SVG</a>
+          </div>
+          <div className="tutorials-btn-wrapper">
+            <a className="tutorials-btn Blackish-pink" href="#">Canvas</a>
+          </div>
+          <div className="tutorials-btn-wrapper">
+            <a className="tutorials-btn yellow-smooth" href="#">Raspberry Pi</a>
+          </div>
+          <div className="tutorials-btn-wrapper">
+            <a className="tutorials-btn white-smooth" href="#">Cyber <span className="tutorials-btn-hidden-word">Security</span></a>
+          </div>
+          <div className="tutorials-btn-wrapper">
+            <a className="tutorials-btn light-green" href="#">Colors</a>
+          </div>
+          <div className="tutorials-btn-wrapper">
+            <a className="tutorials-btn cyan" href="#">Git</a>
+          </div>
+          <div className="tutorials-btn-wrapper">
+            <a className="tutorials-btn Blackish-pink" href="#">Matplotlib</a>
+          </div>
+          <div className="tutorials-btn-wrapper">
+            <a className="tutorials-btn yellow-smooth" href="#">NumPy</a>
+          </div>
+          <div className="tutorials-btn-wrapper">
+            <a className="tutorials-btn white-smooth" href="#">Pandas</a>
+          </div>
+          <div className="tutorials-btn-wrapper">
+            <a className="tutorials-btn light-green" href="#">SciPy</a>
+          </div>
+          <div className="tutorials-btn-wrapper">
+            <a className="tutorials-btn cyan" href="#">ASP</a>
+          </div> 
+          <div className="tutorials-btn-wrapper">
+            <a className="tutorials-btn Blackish-pink" href="#">AngularJS</a>
+          </div>
+          <div className="tutorials-btn-wrapper">
+            <a className="tutorials-btn yellow-smooth" href="#">AppML</a>
+          </div>
+          <div className="tutorials-btn-wrapper">
+            <a className="tutorials-btn white-smooth" href="#">Go</a>
+          </div>
+          <div className="tutorials-btn-wrapper">
+            <a className="tutorials-btn light-green" href="#">TypeScript</a>
+          </div>
+          <div className="tutorials-btn-wrapper">
+            <a className="tutorials-btn cyan" href="#">Django</a>
+          </div>
+          <div className="tutorials-btn-wrapper">
+            <a className="tutorials-btn Blackish-pink" href="#">MongoDB</a>
+          </div>
+          <div className="tutorials-btn-wrapper">
+            <a className="tutorials-btn yellow-smooth" href="#">Statistics</a>
+          </div>
+          <div className="tutorials-btn-wrapper">
+            <a className="tutorials-btn white-smooth" href="#">Data Science</a>
+          </div>
+          <div className="tutorials-btn-wrapper">
+            <a className="tutorials-btn light-green" href="#">Typing Speed</a>
+          </div>
+          <div className="tutorials-btn-wrapper">
+            <a className="tutorials-btn cyan" href="#">HowTo</a>
+          </div>
+          <div className="tutorials-btn-wrapper">
+            <a className="tutorials-btn Blackish-pink" href="#">Code Game</a>
+          </div>
+          <div className="tutorials-btn-wrapper">
+            <a className="tutorials-btn yellow-smooth" href="#">Spaces</a>
+          </div>
+          <div className="tutorials-btn-wrapper">
+            <a className="tutorials-btn white-smooth" href="#">PostgreSQL</a>
+          </div>
+          <div className="tutorials-btn-wrapper tutorials-grid-child-styles">
+            <a className="tutorials-btn cyan" href="#">Excel</a>
+          </div>
+          <div className="tutorials-btn-wrapper tutorials-grid-child-styles tutorials-grid-col-styles">
+            <a className="tutorials-btn yellow-smooth" href="#">DSA - D<span className="tutorials-btn-small-word">ata</span> S<span className="tutorials-btn-small-word">tructures and</span> A<span className="tutorials-btn-small-word">lgorithms</span></a>
+          </div>
+          <div className="tutorials-btn-wrapper tutorials-grid-child-styles">
+            <a className="tutorials-btn Blackish-pink" href="#">Machine Learning</a>
+          </div>
+          <div className="tutorials-btn-wrapper tutorials-grid-child-styles tutorials-grid-col-styles">
+            <a className="tutorials-btn light-green" href="#">Artificial Intelligence</a>
+          </div>
+        </div>
+      </div>
     </main>  
   )
 }
