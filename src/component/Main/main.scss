@@ -17,42 +17,74 @@ a {
   background-color: #05a66c;
   color: #fff;
 }
+
 .light-yellow {
   background-color: #fff4a3;
 }
+
+.yellow-smooth {
+  background-color: #eae098;
+}
+
 .black {
   background-color: #282a35;
   color: #fff;
 }
+
 .pink {
   background-color: #ffc0c7;
 }
+
 .pink-smooth {
   background-color: #f3ecea;;
 }
+
+.Blackish-pink {
+  background-color: #eab1b8;
+}
+
 .sky-blue {
   background-color: #96d4d4;
 }
+
+.cyan {
+  background-color: #8bc3c4;
+}
+
 .white {
   background-color: #fff;
   color: #000;
 }
+
+.white-smooth {
+  background-color: #dfd9d8;
+}
+
 .green-smooth {
   background-color: #d9eee1;
 }
+
+.light-green {
+  background-color: #c8dbd0;
+}
+
 .light-blue {
   background-color: #e7e9eb;
 }
+
 //font size
 .fs-4 {
   font-size: 3.8em; 
 }
+
 .fs-3 {
   font-size: 3.5em;
 }
+
 .fs-5 {
   font-size: 3.8em;
 }
+
 .link {
   margin-bottom: 1.5em;
   font-size: 1.1em;
@@ -164,6 +196,38 @@ a {
   }
 }
 
+//tutorials section
+.tutorials {
+  background-color: #282a35;
+
+  &-container {
+    padding: 0.5em 1em;
+  }
+
+  &-btn-wrapper {
+    width: 100%;
+    margin-bottom: 1.4em;
+  }
+
+  &-btn {
+    font-size: 1.8em;
+    width: 100%;
+    display: block;
+    border-radius: 0.2em;
+    padding: 1.5em 0;
+    font-weight: 600;
+
+    &-diff-styles {
+      padding: 1.8em 0;
+    }
+
+    &-small-word {
+      font-size: 0.8em;
+    }
+  }
+}
+
+
 //responsive
 @media (min-width:601px) {
   .lessons {
@@ -182,6 +246,19 @@ a {
 
     &-section {
       margin-bottom: 1.4em;
+    }
+  }
+
+  .tutorials {
+
+    &-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 0 2em;
+    }
+
+    &-grid-child-styles {
+      grid-column: 1 / 3; 
     }
   }
 }
@@ -230,11 +307,35 @@ a {
 
     &-container {
       display: grid;
-      grid-template-columns: 45% 45%;
-      grid-gap: 0.5em 3.6em;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 2em 5em;
       justify-content: center;
-      max-width: 86em;
+      max-width: 80em;
       margin: 0 auto;
+      padding: 0 2em;
+    }
+  }
+
+  .tutorials {
+
+    &-container {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      max-width: 80em;
+      margin: 0 auto;
+      gap: 2em 5em;
+      padding: 0 2em;
+    }
+
+    &-grid-col-styles {
+      grid-column: 3 / 5; 
+    }
+  }
+}
+@media screen and (max-width: 1080px) and (min-width: 992px) {
+  .tutorials {
+
+    &-btn-hidden-word {
+      display: none;  
     }
   }
 }
