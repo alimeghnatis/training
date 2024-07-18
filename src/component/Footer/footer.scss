@@ -1,40 +1,107 @@
-.footer {
-  display: flex;
-  flex-direction: column;
-  
-  ul {
-    > li {
-      padding: .5em;
-      list-style: none;
+@media (max-width:992px) {
+  //backgroundimg
+  .footer{
+    background-image: url(./images/lynx_landing.png) , url(./images/background_in_space.jpg);
+    background-repeat: no-repeat , repeat ;
+    background-position: center bottom , left top;  
 
-      &:hover {
-        background-color: green;
+    .space{
+      padding-bottom: 400px;
+      padding-top: 40px;
+      padding-right: 80px;
+      padding-left: 80px;
+    }
+  }
+
+  .footer{
+    display: block;
+    font-size: 15px;
+    
+
+    .space{
+
+      .up-menu{
+        
+        
+        .uper-link{
+          width: 100%;
+          text-align: center;
+          padding: 10px 20px;
+          font-size: 20px;
+
+          .upl-a{
+            color: #FFF4A3;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+
+  .mid-menu{
+
+    .midm-block{
+      width: 100%;
+      text-align: center;
+      display: block;
+      
+      .mmb-title{
+        font-size: 26px;
+        color: #ddd;
+        margin-top: 40px;
+        margin-bottom: 20px;
       }
 
-      > a {
-        color: black;
+      .ga-button{
+        display: block;
+        color: #ddd;
         text-decoration: none;
+        font-size: 16px;
       }
     }
   }
-}
 
-/* tablet media query */
-@media (min-width:680px) {
-  .footer {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-  
-    .menu {
-      grid-column: 2 / span 2;
+  .social{
+    text-align: center;
+    padding: 60px 40px 10px 40px;
+    color: #ddd;
+    font-size: 20px;
+    
+    .blank{
+      cursor: pointer;
+      font-size: 20px;
+      margin-right: 10px;
+
+      .sl{
+        
+      }
     }
-  
-    .contact-us {
-      grid-column: 4 / span 2;
+    .line{
+      margin-top: 16px;
     }
-  
-    .explanation {
-      grid-column: 6 / span 2;
+    .blank2{
+      cursor: pointer;
+      margin-right: 10px;
+      font-size: 15px;
+      color: #ddd;
+      text-decoration: none;
+      display: inline-block;
     }
   }
+
+  .ftext{
+    text-align: center;
+    color: #ddd;
+    font-size: 12px;
+    display: block;
+    padding-bottom: 100px;
+    
+    .gabot{
+      text-decoration: underline;
+      color: #ddd;
+    }
+  }
+
 }
+
+
