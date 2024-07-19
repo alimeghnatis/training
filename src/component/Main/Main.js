@@ -1,6 +1,7 @@
 import './main.scss';
 
 function Main() {
+    
   return (
     <main class="main">
 
@@ -311,8 +312,44 @@ function Main() {
           </div>
         </div>
       </div>
+
+      {/* code editor*/}
+      <div className="code-editor black">
+        <div className="code-editor--container">
+          <h1 className="code-editor--title">Code Editor</h1>
+          <h4 className="code-editor--introduction">With our online code editor, you can edit code and view the result in your browser</h4>
+          <div className="code-editor--wrapper">
+            <div className="code-editor--header">
+              <div className="code-editor--circles-wrapper">
+                <span className="circle red-circle"></span>
+                <span className="circle yellow-circle"></span>
+                <span className="circle green-circle"></span>
+              </div>
+              <div className="code-editor--input-wrapper">
+                <input type="text" disabled value="www.w3schools.com/tryit/" className="code-editor--input" />
+              </div>
+            </div>
+            <div className="code-editor--buttons-wrapper">
+              <button className="code-editor--btn active-btn code-editor--btn-hover" id="frontBtn">Frontend</button>
+              <button className="code-editor--btn code-editor--btn-hover inactive-btn" id="backBtn">Backend</button>
+            </div>
+            <div id="Frontend">
+              <img className="code-editor--img img1" src={require('../../images/codeeditor.gif')} alt="" />
+            </div>
+            <div id="Backend">
+              <img className="code-editor--img img2" src={require('../../images/best2.gif')} alt="" />
+            </div>
+            <div className="code-editor--front-link-wrapper">
+              <a className="code-editor--link green" href="#">Try Frontend Editor (HTML/CSS/JS)</a>
+            </div>
+            <div className="code-editor--back-link-wrapper">
+              <a className="code-editor--link light-yellow" href="#">Try Backend Editor (Python/PHP/Java/C..)</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>  
-  )
+  ) 
 }
 
 export default Main
