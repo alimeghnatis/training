@@ -367,7 +367,21 @@ function Main() {
           <a className="w3schools-spaces--link green" href="#">Learn More</a>
         </div>
       </div>
-
+      
+      {/* my learning */}
+      <div className="my-learning green-smooth">
+        <div className="my-learning--container">
+          <h1 className="my-learning--title">My Learning</h1>
+          <h4 className="my-learning--first-introduction">
+            Track your progress with our<strong className="my-learning--first-introduction-strong"> free</strong> "My Learning" program.
+          </h4>
+          <h4 className="my-learning--second-introduction">Log in to your account, and start earning points!</h4>
+          <div className="my-learning--img-wrapper">
+            <img className="my-learning--img" src={require('../../images/myl-green-off.png')} alt="" />
+          </div>
+          <a className="my-learning--link green" href="#">Sign Up for Free</a>
+        </div>
+      </div>
     </main>  
   ) 
 }
