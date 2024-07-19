@@ -313,7 +313,7 @@ function Main() {
         </div>
       </div>
 
-      {/* code editor*/}
+      {/* code editor */}
       <div className="code-editor black">
         <div className="code-editor--container">
           <h1 className="code-editor--title">Code Editor</h1>
@@ -334,10 +334,10 @@ function Main() {
               <button className="code-editor--btn code-editor--btn-hover inactive-btn" id="backBtn">Backend</button>
             </div>
             <div id="Frontend">
-              <img className="code-editor--img img1" src={require('../../images/codeeditor.gif')} alt="" />
+              <img className="avg-style-gif img1" src={require('../../images/codeeditor.gif')} alt="" />
             </div>
             <div id="Backend">
-              <img className="code-editor--img img2" src={require('../../images/best2.gif')} alt="" />
+              <img className="avg-style-gif img2" src={require('../../images/best2.gif')} alt="" />
             </div>
             <div className="code-editor--front-link-wrapper">
               <a className="code-editor--link green" href="#">Try Frontend Editor (HTML/CSS/JS)</a>
@@ -348,6 +348,26 @@ function Main() {
           </div>
         </div>
       </div>
+
+      {/* w3schools spaces */}
+      <div className="w3schools-spaces black">
+        <div className="w3schools-spaces--container">
+          <h1 className="w3schools-spaces--title">W3Schools Spaces</h1>
+          <h3 className="w3schools-spaces--first-introduction">
+            If you want to create your own website, check out
+            <a className="w3schools-spaces--first-introduction-link" href="#"> W3Schools Spaces</a>
+            .
+          </h3>
+          <h3 className="w3schools-spaces--second-introduction">
+            It is free to use, and does not require any setup: 
+          </h3>
+          <div className="w3schools-spaces--img-wrapper">
+            <img className="avg-style-gif" src={require('../../images/dynamicspaces.gif')} alt="" />
+          </div>
+          <a className="w3schools-spaces--link green" href="#">Learn More</a>
+        </div>
+      </div>
+
     </main>  
   ) 
 }
