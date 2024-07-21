@@ -461,6 +461,58 @@ a {
   }
 }
 
+//plus user
+.plus-user {
+
+  &--container {
+    padding: 5em 1em 5em 1em;
+  }
+
+  &--title {
+    margin: 0;
+    font-size: 3.8em;
+    font-weight: 700;
+  }
+
+  &--introduction {
+    color: #ffc0c7;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: 0.8em 0 1.5em 0;
+  }
+
+  &--list-wrapper {
+    text-align: start;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 2em 3em;
+  }
+
+  &--list {
+    line-height: 1.8em;
+    margin-bottom: 0.2em;
+    font-size: 1.1em;
+    font-weight: 600;
+  }
+
+  &--bold-text {
+    font-weight: 700;
+  }
+
+  &--list-img {
+    margin-right: 1em;
+    vertical-align: middle;
+  }
+
+  &--link {
+    font-size: 1.3em;
+    font-weight: 500;
+    padding: 0.8em 0;
+    border-radius: 2em;
+    display: inline-block;
+    width: 14.5em;
+  }
+}
 
 //responsive
 @media (min-width:601px) {
@@ -497,6 +549,11 @@ a {
   }
 
   .code-editor {
+    padding: 9em 1em;
+
+    &--title {
+      font-size: 4.1em;
+    }
 
     &--front-link-wrapper {
       margin: 2em 0 2.7em 0;
@@ -505,14 +562,6 @@ a {
     &--link {
       display: inline;
       padding: 0.4em 1em;
-    }
-  }
-
-  .code-editor {
-    padding: 9em 1em;
-
-    &--title {
-      font-size: 4.1em;
     }
   }
 
@@ -527,6 +576,17 @@ a {
   .my-learning {
     &--title {
       font-size: 4.1em;
+    }
+  }
+
+  .plus-user {
+
+    &--introduction {
+      font-size: 1.6em;
+    }
+
+    &--list {
+      font-size: 1.2em;
     }
   }
 }
@@ -548,6 +608,13 @@ a {
 
     &-section {
       margin-bottom: 2em;
+    }
+  }
+
+  .plus-user {
+
+    &--title {
+      font-size: 3.2em;
     }
   }
 }

@@ -382,6 +382,36 @@ function Main() {
           <a className="my-learning--link green" href="#">Sign Up for Free</a>
         </div>
       </div>
+
+      {/* plus user */}
+      <div className="plus-user black">
+        <div className="plus-user--container">
+          <h1 className="plus-user--title">Become a Plus User</h1>
+          <h3 className="plus-user--introduction">And unlock powerful features:</h3>
+          <div className="plus-user--list-wrapper">
+            <ul>
+              <li className="plus-user--list">
+                <img className="plus-user--list-img" src={require('../../images/check3.db67d31e.png')} alt="" />
+                Browse W3Schools <span className="plus-user--bold-text">without ads</span>
+              </li>
+              <li className="plus-user--list">
+                <img className="plus-user--list-img" src={require('../../images/check3.db67d31e.png')} alt="" />
+                Build and host Websites
+              </li>
+              <li className="plus-user--list">
+                <img className="plus-user--list-img" src={require('../../images/check3.db67d31e.png')} alt="" />
+                Get extra credits
+              </li>
+              <li className="plus-user--list">
+                <img className="plus-user--list-img" src={require('../../images/check3.db67d31e.png')} alt="" />
+                Priority support
+              </li>
+            </ul>
+          </div>
+          <a className="plus-user--link green" href="#">Learn More</a>
+        </div>
+      </div>
+
     </main>  
   ) 
 }
