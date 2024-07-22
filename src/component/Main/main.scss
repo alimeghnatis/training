@@ -1,6 +1,7 @@
 @use './reset.scss';
 @use './normalize.scss';
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap');
 
 .main {
   font-family: "Source Sans 3";
@@ -465,7 +466,7 @@ a {
 .plus-user {
 
   &--container {
-    padding: 5em 1em 5em 1em;
+    padding: 6em 1em 7em 1em;
   }
 
   &--title {
@@ -535,6 +536,43 @@ a {
   
   &--img-link:hover {
     opacity: 0.5;
+  }
+}
+
+//code game section
+.code-game {
+
+  &--container {
+    padding: 4em 0 4em 0;
+  }
+  
+  &--title {
+    font-family: "Freckle Face";
+    margin: 0;
+    font-size: 3.8em;
+  }
+
+  &--introduction {
+    font-family: "Freckle Face";
+    font-size: 1.6em;
+    margin: 0.5em 0 1.4em 0;
+  }
+  
+  &--img-wrapper {
+    margin-bottom: 2.5em;
+  }
+
+  &--img-link:hover {
+    opacity: 0.5;
+  }
+
+  &--link {
+    padding: 0.8em 1em;
+    border-radius: 2em;
+    font-weight: 600;
+    font-size: 1.3em;
+    width: 8em;
+    display: inline-block;
   }
 }
 
@@ -613,6 +651,13 @@ a {
       font-size: 1.2em;
     }
   }
+
+  .code-game {
+
+    &--introduction {
+      font-size: 2em;
+    }
+  }
 }
 @media (min-width:769px) {
   .fs-4 {
@@ -646,6 +691,13 @@ a {
 
     &--title {
       font-size: 4em;
+    }
+  }
+
+  .code-game {
+
+    &--title {
+      font-size: 3em;
     }
   }
 }

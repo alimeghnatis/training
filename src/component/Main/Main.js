@@ -422,6 +422,20 @@ function Main() {
           </a>
         </div>
       </div>
+      
+      {/* code game */}
+      <div className="code-game sky-blue">
+        <div className="code-game--container">
+          <h1 className="code-game--title">Code Game</h1>
+          <h4 className="code-game--introduction">Help the Lynx collect pine cones!</h4>
+          <div className="code-game--img-wrapper">
+            <a className="code-game--img-link" href="#">
+            <img className="code-game--img" src={require('../../images/w3lynx_200.png')} alt="" />
+            </a>
+          </div>
+          <a className="code-game--link black" href="#">Play Game</a>
+        </div>
+      </div>
 
     </main>  
   ) 
