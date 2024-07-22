@@ -1,6 +1,5 @@
 import './footer.scss'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope , faYoutube , faLinkedin , faDiscord , faSquareFacebook , faInstagram} from '@fortawesome/free-solid-svg-icons'
+
 
 
 
@@ -148,27 +147,27 @@ function Footer() {
       <div className="social">
         <a href="" className="blank">
           <i className="sl">
-            <FontAwesomeIcon icon="fa-brands fa-youtube" />
+            IG
           </i>
         </a>
         <a href="" className="blank">
           <i className="sl">
-            <FontAwesomeIcon icon="fa-brands fa-linkedin" />
+            YT
           </i>
         </a>
         <a href="" className="blank">
           <i className="sl">
-            <FontAwesomeIcon icon="fa-brands fa-discord" />
+            DC
           </i>
         </a>
         <a href="" className="blank">
           <i className="sl">
-            <FontAwesomeIcon icon="fa-brands fa-square-facebook" />
+            FB
           </i>
         </a>
         <a href="" className="blank">
           <i className="sl"> 
-            <FontAwesomeIcon icon="fa-brands fa-instagram" />
+            LK
           </i>
         </a>
         <div className="line"></div>

@@ -72,9 +72,11 @@
       cursor: pointer;
       font-size: 20px;
       margin-right: 10px;
+      text-decoration: none;
 
       .sl{
-        
+       color: #ddd;
+       text-decoration: none;
       }
     }
     .line{
@@ -105,7 +107,7 @@
 
 }
 
-@media (max-width:1200px){
+@media (min-width:993px){
   .footer{
     background-image: url(./images/lynx_landing.png), url(./images/background_in_space.jpg);
     background-color: #282A35;
@@ -138,6 +140,40 @@
         }
 
       }
+    }
+  }
+
+
+  .mid-menu{
+    display: block;
+
+    .midm-block{
+      padding-left: 33px;
+      padding-right: 63px;
+      float: left;
+      color: #ddd;
+      font-size: 12px;
+      width: auto;
+     
+      .mmb-title{
+        color: #ddd;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 18px;
+        text-align: left;
+      }
+      .ga-button{
+        color: inherit;
+        text-decoration: none;
+        font-size: 14px;
+        float: left;
+        margin-bottom: 0.6em;
+        cursor: pointer;
+      }
+
+    }
+    .midm-block:last-child{
+      padding-right: 0px;
     }
   }
 
