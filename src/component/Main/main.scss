@@ -461,7 +461,7 @@ a {
   }
 }
 
-//plus user
+//plus user section
 .plus-user {
 
   &--container {
@@ -511,6 +511,30 @@ a {
     border-radius: 2em;
     display: inline-block;
     width: 14.5em;
+  }
+}
+
+//color picker section
+.color-picker {
+
+  &--container {
+    padding: 5.5em 1em 5em 1em;
+  }
+  
+  &--title {
+    margin: 0;
+    font-size: 3.8em;
+    font-weight: 700;
+  }
+
+  &--introduction {
+    margin: 1.2em 0 1.5em 0;
+    font-size: 1.3em;
+    font-weight: 550;
+  }
+  
+  &--img-link:hover {
+    opacity: 0.5;
   }
 }
 
@@ -615,6 +639,13 @@ a {
 
     &--title {
       font-size: 3.2em;
+    }
+  }
+
+  .color-picker {
+
+    &--title {
+      font-size: 4em;
     }
   }
 }

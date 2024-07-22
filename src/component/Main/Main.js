@@ -411,6 +411,17 @@ function Main() {
           <a className="plus-user--link green" href="#">Learn More</a>
         </div>
       </div>
+      
+      {/* color picker */}
+      <div className="color-picker pink-smooth">
+        <div className="color-picker--container">
+          <h1 className="color-picker--title">Color Picker</h1>
+          <h4 className="color-picker--introduction">W3Schools' famous color picker:</h4>
+          <a className="color-picker--img-link" href="#">
+            <img className="color-picker--img" src={require('../../images/colorpicker.png')} alt="" />
+          </a>
+        </div>
+      </div>
 
     </main>  
   ) 
