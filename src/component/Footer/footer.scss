@@ -42,7 +42,7 @@
 
     .midm-block{
       width: 100%;
-      text-align: center;
+      text-align: center; 
       display: block;
       
       .mmb-title{
@@ -107,7 +107,7 @@
 
 }
 
-@media (min-width:993px){
+@media (min-width:993px) and (max-width:1200px){
   .footer{
     background-image: url(./images/lynx_landing.png), url(./images/background_in_space.jpg);
     background-color: #282A35;
@@ -177,6 +177,45 @@
     }
   }
 
+  .social{
+    padding: 60px 40px 10px 30px;
+    display: inline-flex; 
+    float: left;
+    color: #ddd;
+    font: 20px;
+    
+    .blank{
+      margin-right: 10px;
+      color: inherit;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .line{
+      margin-right: 10px;
+    }
+    .blank2{
+      cursor: pointer;
+      color: inherit;
+      text-decoration: none;
+      margin-right: 10px;
+      
+    }
+  }
+
+  .ftext{
+    display: inline-block;
+    text-align: left;
+    color: #ddd;
+    padding-bottom: 120px;
+    font-size: 14px;
+    text-align: left;
+    margin-left: 30px;
+
+    .gabot{
+      text-decoration: underline;
+      color: inherit;
+    }
+  }
 
 }
 
