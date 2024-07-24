@@ -436,6 +436,22 @@ function Main() {
           <a className="code-game--link black" href="#">Play Game</a>
         </div>
       </div>
+      
+      {/* exercise and quizzes */}
+      <div className="exercise black">
+        <div className="exercise-container">
+          <h2 className="exercise-title">Exercises and Quizzes</h2>
+          <h4 className="exercise-introduction">Test your skills!</h4>
+          <div className="exercise-item-wrapper">
+            <div className="exercise-item">
+              <a className="exercise-item-link green" href="#">Exercises</a>
+            </div>
+            <div className="exercise-item">
+              <a className="exercise-item-link light-yellow" href="#">Quizzes</a>
+            </div>
+          </div>
+        </div>
+      </div>
 
     </main>  
   ) 
