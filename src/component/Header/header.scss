@@ -1,290 +1,64 @@
-@font-face {
-  font-family: "courier";
-  src: url(./../font/Courier-New.woff2);
+.logo-img{
+  width: 40px;
 }
-@font-face {
-  font-family: "ssp-extraLight";
-  src: url(./../font/SourceSansPro-ExtraLight.woff2);
+.search-img{
+  width: 20px;
 }
-@font-face {
-  font-family: "ssp-light";
-  src: url(./../font/SourceSansPro-Light.woff2);
-}
-@font-face {
-  font-family: "ssp-regualr";
-  src: url(./../font/SourceSansPro-Regular.woff2);
-}
-@font-face {
-  font-family: "ssp-semiBold";
-  src: url(./../font/SourceSansPro-SemiBold.woff2);
-}
-@font-face  {
-  font-family: "ssp-bold";
-  src: url(./../font/SourceSansPro-Bold.woff2);
-}
-@font-face {
-  font-family: "ssp-black";
-  src: url(./../font/SourceSansPro-Black.woff2);
+.dark-img{
+  width:20px;
 }
 
 
-$courier: "courier";
-$exLight: "ssp-extraLight";
-$light: "ssp-light";
-$regualr: "ssp-regualr";
-$semi-bold: "ssp-semiBold";
-$bold: "ssp-bold";
-$black: "ssp-black";
-
-.text-white{
-  color: white;
-}
-
-.bg-black{
-  background-color: black;
-}
-
-*, *::before, *::after {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: $regualr;
-  list-style: none;
-}
-
-.header{
-
-  a{
-    text-decoration: none;
-    color: black;
-  }
-}
-
-
-
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 10px;
-  padding: 0 1rem;
-  position: sticky;
-  top: 0;
-  background-color: #fff;
-  z-index: 100000;
+//mobile media
+@media screen and (min-width:0px) and (max-width:475px){
   
-  .left-content {
-    display: flex;
-    align-items: center;
-    
-    .w3s-image-wrapper {
-      max-width: 3.4rem;
-      margin-right: 1rem;
-      
-      .logo-link {
-        width: 100%;
-        
-        .w3s-logo {
-          width: 100%;
-        }
+  .header1{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    height: 56px;
+
+    .logo{
+      padding: 8px 16px;
+
+      .logo-img{
+
       }
     }
-  }
-}
 
-.nav-menu {
-    display: flex;
-    align-items: center;
-    .nav-link {
-    display: flex;
-    align-items: center; 
-    font-size: 1rem;
-    padding: 1.2rem 1rem;
-    &:hover {
-      background-color: #04aa6d;
-      color: #fff;
-    }
-  }
-}
-.down-arrow {
-    width: 0.8rem;
-    margin-bottom: -0.24rem;
-}
+    .menu-but{
+      margin: 16px 16px;
 
-.search-input-wrapper {
-    display: flex;
-    align-items: center;
-    border: 1px solid #cfcccc;
-    border-radius: 5rem;
-    padding: 0.4rem 0.65rem;
-    margin-left: 1.5rem;
-  
-   .search-input {
-    border: none;
-    font-size: 1rem;
-    width: 7.8rem;
-    padding-left: 0.2rem;
-    outline: none;
-    font-style: italic;
-  }
-  
-  .search-input:placeholder {
-    color: #877b75; 
-  }
-
-  .search-icon-wrapper {
-    max-width: 1.3rem;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-  
-    .search-icon {
-      width: 100%;
-    }
-  }
-}
-.l-d-mode-wrapper {
-    max-width: 1.2rem;
-    margin-left: 1.4rem;
-    
-    .l-d-mode {
-    width: 100%;
-    cursor: pointer;
-  }
-}
-
-.right-content {
-    display: flex;
-    align-items: center;
-    font-size: 1rem;
-
-    .item {
-      display: flex;
-      align-items: center;
-    }
-    
-    .logo-item {
-      width: 1.7rem;
-      padding-right: 0.4rem;
-    }
-    
-    .ml2 {
-      margin-left: 2.8rem;
-    }
-    
-    .ml3 {
-      margin-left: 2rem;
-    }
-    
-    .sign-log-link-wrapper {
-      display: flex;
-      align-items: center;
-    }
-    
-    .sign-log-link-wrapper .sign {
-      margin-right: -2.4rem;
-      z-index: 1000;
-    }
-    
-    .sign-log-link-wrapper .sign .sign-link {
-      padding: 0.7rem 1.3rem;
-      background-color: #04aa6d;
-      border-radius: 5rem;
-      color: #fff;
-    }
-    
-    .sign-log-link-wrapper .log .log-link {
-      background-color: #d9eee1;
-      padding: 0.7rem 1.3rem 0.7rem 3rem;
-      border-radius: 5rem;
-    }
-  }
-
-  .nested-navigation-container{
-    background-color: #282a35;
-    color: white;
-    position: relative;
-    padding-bottom: 30px;
-    //removable
-    // float: left;
-    
-    .nested-navigation-container-close-btn{
-      position: absolute;
-      right: 0;
-      
-      .clbtn{
-        padding: 30px;
-        font-size: 30px;
-        background-color: transparent;
-        color: white;
-        border: none;
-        cursor: pointer;
-      } 
-    }
-  }
-    .nested-navigation-container-content{
-      width: 80%;
-      margin: auto;
-      //removable
-      text-align: left; 
-      padding-top: 50px;
-      
-      .content-h1{
-        margin: 0;
-        color: #fff4a3;
-      }
-      .nested-navigation-container-content-data{
-        display: grid;
-        grid-template-columns: repeat(4,minmax(100px,1fr));
-        
-        .nested-navigation-item{
-          margin-right: 20px;
-          
-          h2{
-          color: #fff4a3;      
-          margin-top: 30px;
-          margin-bottom: 20px;
-          }
-          
-          .a11{
-            display: block;
-            color: white;
-            font-size: 16px; 
-            text-decoration: none;
-            margin-top: 8px;
-            padding: 5px 0px;
-
-            .span1{
-              margin-right: 10px;
-            }    
-
-            .span2{
-            }
+      .menu-but-link{
+        color: black;
+        text-decoration: none;
       }
     }
+
+    .search-but{
+      padding: 10px 8px;
+    }
+
+    .dark-but{
+      padding: 10px 8px;
+    }
+
+    .login-but{
+      width: 240px;
+      text-align: right;
+      padding-right: 5px;
+    
+      .login-but-link{
+        color: black;
+        background-color: #D9EEE1;
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-bottom: 11px;
+        padding-top: 11px;
+        text-decoration: none;
+        border-radius: 20px;
+      }
+    }
+
   }
 }
-
-  .a11:hover{
-    background-color: #e7e9eb;
-    
-    .span1{
-      color: black;
-    }
-    
-    .span2{
-      color: black;
-    }
-  }
-
-  .nested-navigation-container-close-btn{
-
-  .clbtn:hover{
-    background-color: white;
-    color: black;
-  }
-}
-
-  .nested_navigation_hidden{
-   //display: none;
-  }
