@@ -11,13 +11,14 @@
 
 //mobile media
 @media screen and (min-width:0px) and (max-width:475px){
+
   
   .header1{
     display:flex;
     flex-direction:row;
     align-items:center;
     height: 56px;
-
+  
     .logo{
       padding: 8px 16px;
 
@@ -60,5 +61,19 @@
       }
     }
 
+  }
+
+  .header2{
+    display: none;
+  }
+
+}
+
+@media screen and (min-width:476px) and (max-width:602px){
+  .header2{
+    
+  }
+  .header1{
+    display: none; 
   }
 }
