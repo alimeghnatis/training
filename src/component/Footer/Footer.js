@@ -144,37 +144,43 @@ function Footer() {
         </div>
 
       </div>
-      <div className="social">
-        <a href="" className="blank">
-          <i className="sl">
+      
+        <div className="social">
+          <a href="" className="blank">
+            <i className="sl">
             IG
-          </i>
-        </a>
-        <a href="" className="blank">
-          <i className="sl">
+            </i>
+          </a>
+          <a href="" className="blank">
+            <i className="sl">
             YT
-          </i>
-        </a>
-        <a href="" className="blank">
-          <i className="sl">
+            </i>
+          </a>
+          <a href="" className="blank">
+            <i className="sl">
             DC
-          </i>
-        </a>
-        <a href="" className="blank">
-          <i className="sl">
+            </i>
+          </a>
+          <a href="" className="blank">
+            <i className="sl">
             FB
-          </i>
-        </a>
-        <a href="" className="blank">
-          <i className="sl"> 
+            </i>
+          </a>
+          <a href="" className="blank">
+            <i className="sl"> 
             LK
-          </i>
-        </a>
+            </i>
+          </a>
+        </div>
+        
         <div className="line"></div>
-        <a href="" className="blank2">FORUM</a>
-        <a href="" className="blank2">ABOUT</a>
-        <a href="" className="blank2">CLASSROOM</a>
-      </div>
+
+        <div className="slli">
+          <a href="" className="blank2">FORUM</a>
+          <a href="" className="blank2">ABOUT</a>
+          <a href="" className="blank2">CLASSROOM</a>
+        </div>
+      
       <div className="ftext">
         W3Schools is optimized for learning and training. Examples might be simplified to improve reading and learning.
         <br className="hs"/>

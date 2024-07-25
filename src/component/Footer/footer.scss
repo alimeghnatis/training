@@ -13,99 +13,49 @@
     }
   }
 
-  .footer{
-    display: block;
-    font-size: 15px;
+  .up-menu{
+    display: flex;
+    flex-direction: column;
     
+    .uper-link{
+      padding: 18px 0px;
 
-    .space{
-
-      .up-menu{
-       margin-right: 38px; 
-        
-        .uper-link{
-          width: 100%;
-          text-align: center;
-          padding: 10px 20px;
-          font-size: 20px;
-
-          .upl-a{
-            color: #FFF4A3;
-            text-decoration: none;
-          }
-        }
+      .upl-a{
+        text-decoration: none;
+        color: #FFF4A3;
+        font-size: 20px;
       }
     }
   }
 
   .mid-menu{
+    display: flex;
+    flex-direction: column;
 
     .midm-block{
-      width: 100%;
-      text-align: center; 
-      display: block;
-      
+      color: #ddd;
+    
+
       .mmb-title{
-        font-size: 26px;
-        color: #ddd;
-        margin-top: 40px;
+        color: inherit;
         margin-bottom: 20px;
+        margin-top: 40px;
+        font-size: 23px;
       }
 
       .ga-button{
-        display: block;
-        color: #ddd;
+        color: inherit;
         text-decoration: none;
-        font-size: 16px;
-        margin-bottom: 0.6em;
       }
     }
   }
 
   .social{
-    text-align: center;
-    padding: 60px 40px 10px 40px;
-    color: #ddd;
-    font-size: 20px;
-    
-    .blank{
-      cursor: pointer;
-      font-size: 20px;
-      margin-right: 10px;
-      text-decoration: none;
-
-      .sl{
-       color: #ddd;
-       text-decoration: none;
-      }
-    }
-    .line{
-      margin-top: 16px;
-    }
-    .blank2{
-      cursor: pointer;
-      margin-right: 10px;
-      font-size: 15px;
-      color: #ddd;
-      text-decoration: none;
-      display: inline-block;
-    }
-  }
-
-  .ftext{
-    text-align: center;
-    color: #ddd;
-    font-size: 12px;
-    display: block;
-    padding-bottom: 100px;
-    
-    .gabot{
-      text-decoration: underline;
-      color: #ddd;
-    }
+    display: flex;
   }
 
 }
+
 
 @media (min-width:993px) and (max-width:1200px){
   .footer{
