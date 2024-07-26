@@ -4,56 +4,49 @@ import './header.scss'
 
 function Header() {  
   return (
-
+    
     <div className="header">
-      <div className="header1">
-        <div className="logo">
-          <img className="logo-img" src= {require('../image/logo.png')} alt="" />
-        </div>
-
-        <div className="menu-but">
-          <a href="" className="menu-but-link">Menu</a>
-        </div>
-
-        <div className="search-but">
-          <img className="search-img" src={require('../image/search-svgrepo-com.png')}  alt="" />
-        </div>
-        
-        <div className="dark-but">
-          <img className="dark-img" src={require('../image/dark-theme-svgrepo-com.png')} alt="" />
-        </div>
-
-        <div className="login-but">
-          <a href="" className="login-but-link">Log in</a>
-        </div> 
+      <div className="w3s-logo">
+        <a href="" className="logo-url">
+          <img src={require('../image/logo.png')} alt="" className="logo-img"/>
+        </a>
       </div>
-      
-      <div className="header2">
-        <div className="logo">
-          <img className="logo-img" src={require('../image/logo.png')} alt="" />
-        </div>
-
-        <div className="menu-but">
-          <a href="" className="menu-but-link">Menu</a>
-        </div>
-
-        <div className="search-but">
-          <img className="search-img"  src={require('../image/search-svgrepo-com.png')} alt="" />
-        </div>
-
-        <div className="dark-but">
-          <img className="dark-img" src={require('../image/dark-theme-svgrepo-com.png')} alt="" />
-        </div>
-
+      <div className="tutorial">
+        <a href="" className="tutorial-text">Tutorials</a>
+        <img src={require('../image/back-up-down-svgrepo-com.png')} alt="" className="dropdownimg"/>
+      </div>
+      <div className="exercises">
 
       </div>
+      <div className="certificates">
 
-    </div>  
+      </div>
+      <div className="services">
 
+      </div>
+      <div className="search">
+
+      </div>
+      <div className="darkbut">
+
+      </div>
+      <div className="plus">
+
+      </div>
+      <div className="spaces">
+
+      </div>
+      <div className="get-certified">
+
+      </div>
+      <div className="sign">
+
+      </div>
+    </div>
 
 
   );
-}
+}  
 
 
 export default Header
