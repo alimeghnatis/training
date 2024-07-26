@@ -171,11 +171,10 @@ function Footer() {
             LK
             </i>
           </a>
-        </div>
         
-        <div className="line"></div>
+          <div className="line"></div>
 
-        <div className="slli">
+        
           <a href="" className="blank2">FORUM</a>
           <a href="" className="blank2">ABOUT</a>
           <a href="" className="blank2">CLASSROOM</a>
