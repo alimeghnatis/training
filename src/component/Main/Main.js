@@ -466,6 +466,21 @@ function Main() {
           <a className="web-template--link black" href="#">Browse Templates</a>
         </div>
       </div>
+      
+      {/* career */}
+      <div className="career black">
+        <div className="career-container">
+          <h2 className="career-title">Kickstart your career</h2>
+          <p className="career-introduction">Get certified by completing a course</p>
+          <a className="career-link green" href="#">Get started</a>
+          <div className="career-img-wrapper">
+            <img className="career-img" src={require('../../images/svgexport-14.png')} alt="" />
+          </div>
+          <div className="career-arrow-img-wrapper">
+            <img className="career-arrow-img" src={require('../../images/svgexport-13.png')} alt="" />
+          </div>
+        </div>
+      </div>
 
     </main>  
   ) 

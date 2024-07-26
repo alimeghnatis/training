@@ -656,6 +656,59 @@ a {
   }
 }
 
+//career section
+.career {
+
+  &-container {
+    padding: 4em 3em;
+    position: relative;
+  }
+
+  &-title {
+    font-size: 3.4em;
+    text-align: start;
+    color: #ffc0c7;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+
+  &-introduction {
+    font-size: 2.5em;
+    color: #ffc0c7;
+    text-align: start;
+    font-weight: 600;
+    line-height: 1.4;
+    margin: 1em 0 1em 0;
+  }
+
+  &-link {
+    font-size: 1.25em;
+    font-weight: 500;
+    padding: 1em 0;
+    display: block;
+    border-radius: 2em;
+  }
+
+  &-img-wrapper {
+    position: absolute;
+    max-width: 6.3em;
+    top: -2.5em;
+    right: 5em;
+  }
+
+  &-img {
+    transform: rotate(10deg);
+    width: 100%;
+  }
+
+  &-arrow-img-wrapper {
+    display: none;
+    position: absolute;
+    top: 23.5em;
+    right: 12em;
+  }
+}
+
 //responsive
 @media (min-width:601px) {
   .lessons {
@@ -762,6 +815,28 @@ a {
       width: 50%;
     }
   }
+
+  .career {
+
+    &-container {
+      text-align: start;
+    }
+
+    &-introduction {
+      font-size: 3.25em;
+    }
+    
+    &-img-wrapper {
+      max-width: 9.3em;
+      top: 26.4em;
+      right: 5em;
+    }
+
+    &-link {
+      width: 10em;
+      text-align: center;
+    }
+  }
 }
 @media (min-width:769px) {
   .fs-4 {
@@ -816,6 +891,32 @@ a {
 
     &--title {
       font-size: 4.05em;
+    }
+  }
+}
+@media (min-width:801px) {
+  .career {
+
+    &-title {
+      font-size: 3.9em;
+    }
+
+    &-arrow-img-wrapper {
+      display: inline-block;
+    }
+  }
+}
+@media (min-width:910px) {
+  .career {
+
+    &-img-wrapper {
+      top: 22.4em;
+      right: 5em;
+    }
+
+    &-arrow-img-wrapper {
+      top: 19.5em;
+      right: 12em;
     }
   }
 }
@@ -878,6 +979,25 @@ a {
 
     &--img-wrapper {
       max-width: 62em;
+    }
+  }
+
+  .career {
+    
+    &-container {
+      max-width: 80em;
+      margin: 0 auto;
+    }
+
+    &-img-wrapper {
+      max-width: 14.3em;
+      top: 19.4em;
+      right: 5em;
+    }
+
+    &-arrow-img-wrapper {
+      top: 18em;
+      right: 16em;
     }
   }
 }
