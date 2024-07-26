@@ -452,6 +452,20 @@ function Main() {
           </div>
         </div>
       </div>
+      
+      {/* web templates */}
+      <div className="web-template light-blue">
+        <div className="web-template--container">
+          <h1 className="web-template--title">Web Templates</h1>
+          <h4 className="web-template--introduction">Browse our selection of <strong>free</strong> responsive HTML Templates</h4>
+          <div className="web-template--img-wrapper">
+            <a className="web-template--img-link" href="#">
+              <img className="web-template--img" src={require('../../images/w3css_templates.jpg')} alt="" />
+            </a>
+          </div>
+          <a className="web-template--link black" href="#">Browse Templates</a>
+        </div>
+      </div>
 
     </main>  
   ) 

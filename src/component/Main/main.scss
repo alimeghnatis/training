@@ -618,6 +618,44 @@ a {
   }
 }
 
+//web tamplate section
+.web-template {
+
+  &--container {
+    padding: 5em 1.5em;
+  }
+
+  &--title {
+    margin: 0;
+    font-size: 3.75em;
+    font-weight: 700;
+  }
+
+  &--introduction {
+    font-size: 1.25em;
+    font-weight: 500;
+    margin: 1.2em 0 1.5em 0;
+    line-height: 1.5;
+  }
+
+  &--img-wrapper {
+    max-width: 100%;
+    margin: 0 auto 2.5em;
+  }
+
+  &--img {
+    width: 100%;
+  }
+
+  &--link {
+    font-size: 1.25em;
+    font-weight: 500;
+    display: block;
+    padding: 1em 0;
+    border-radius: 1em;
+  }
+}
+
 //responsive
 @media (min-width:601px) {
   .lessons {
@@ -716,6 +754,14 @@ a {
       padding: 0 2.3em;
     }
   }
+
+  .web-template { 
+
+    &--link {
+      display: inline-block;
+      width: 50%;
+    }
+  }
 }
 @media (min-width:769px) {
   .fs-4 {
@@ -763,6 +809,13 @@ a {
 
     &-item-wrapper {
       grid-gap: 0 5em; 
+    }
+  }
+
+  .web-template {
+
+    &--title {
+      font-size: 4.05em;
     }
   }
 }
@@ -818,6 +871,13 @@ a {
   
     &-item-wrapper {
       grid-gap: 0 7em; 
+    }
+  }
+
+  .web-template {
+
+    &--img-wrapper {
+      max-width: 62em;
     }
   }
 }
