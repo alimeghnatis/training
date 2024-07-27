@@ -26,8 +26,7 @@
     gap: 14px;
 
     .w3s-logo{
-      grid-area: 1/1/2/2;  
-      
+      grid-area: 1/1/2/2;     
     }
 
     .tutorial{
@@ -48,33 +47,92 @@
       .tutorial-text{
         text-decoration: none;
         color: inherit;
-
       }
     }
+
     .exercises{
       grid-area: 1/3/2/4;
+      color: #000;
+      height: 56px;
+      width: 104px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+
+      &:hover{
+        color: #ddd;
+        background-color: #04AA6D;
+      }
+
+      .exercises-text{
+        text-decoration: none;
+        color: inherit;  
+      }
     }
+
     .certificates{
       grid-area: 1/4/2/5;
+      color: #000;
+      height: 56px;
+      width: 104px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+
+      &:hover{
+        color: #ddd;
+        background-color: #04AA6D;
+      }
+
+      .certificates-text{
+        text-decoration: none;
+        color: inherit;
+      }
     }
+
     .services{
       grid-area: 1/5/2/6;
+      color: #000;
+      height: 56px;
+      width: 104px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+
+      &:hover{
+        color: #ddd;
+        background-color: #04AA6D;
+      }
+
+      .services-text{
+        text-decoration: none;
+        color: inherit;
+      }
     }
+
     .search{
       grid-area: 1/6/2/7;
     }
+
     .darkbut{
       grid-area: 1/7/2/8;
     }
+
     .plus{
       grid-area: 1/12/2/13;
     }
+
     .spaces{
       grid-area: 1/13/2/14;
     }
+
     .get-certified{
       grid-area: 1/14/2/15; 
     }
+
     .sign{
       grid-area: 1/15/2/16;
     }

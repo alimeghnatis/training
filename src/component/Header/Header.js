@@ -16,13 +16,16 @@ function Header() {
         <img src={require('../image/back-up-down-svgrepo-com.png')} alt="" className="dropdownimg"/>
       </div>
       <div className="exercises">
-
+        <a href="" className="exercises-text">Exercises</a>
+        <img src={require('../image/back-up-down-svgrepo-com.png')} alt="" className="dropdownimg"/>
       </div>
       <div className="certificates">
-
+        <a href="" className="certificates-text">Certificates</a>
+        <img src={require('../image/back-up-down-svgrepo-com.png')} alt="" className="dropdownimg" />
       </div>
       <div className="services">
-
+        <a href="" className="services-text">Services</a>
+        <img src={require('../image/back-up-down-svgrepo-com.png')} alt="" className="dropdownimg" />
       </div>
       <div className="search">
 
