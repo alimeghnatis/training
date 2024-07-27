@@ -6,6 +6,14 @@
   width: 15px;
 }
 
+.searchimg{
+  width: 20px;
+}
+
+.darkimg{
+  width: 20px;
+}
+
 
 
 //mobile media
@@ -15,7 +23,7 @@
   
   .header{
     display: grid;
-    grid-template-columns: 75px  104px 104px 104px 104px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 75px  104px 104px 104px 104px 52px 52px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
@@ -115,10 +123,21 @@
 
     .search{
       grid-area: 1/6/2/7;
+      width: 52px;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
     }
 
     .darkbut{
       grid-area: 1/7/2/8;
+      width: 52px;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
     .plus{

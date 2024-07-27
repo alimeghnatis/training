@@ -28,10 +28,10 @@ function Header() {
         <img src={require('../image/back-up-down-svgrepo-com.png')} alt="" className="dropdownimg" />
       </div>
       <div className="search">
-
+        <img src={require('../image/search-svgrepo-com.png')} alt="" className="searchimg" />
       </div>
       <div className="darkbut">
-
+        <img src={require('../image/dark-theme-svgrepo-com.png')} alt="" className="darkimg" />
       </div>
       <div className="plus">
 
