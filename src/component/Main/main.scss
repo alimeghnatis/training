@@ -13,7 +13,19 @@ a {
 
 //global classes
 
+.code-mr {
+  margin-right: 0.7em;
+}
+
 //colors
+.brown {
+  color: #a52a2a;
+}
+
+.orange {
+  color: #ff2808;
+}
+
 .red-circle {
   background-color: #ed594a;
 }
@@ -26,9 +38,23 @@ a {
   background-color: #5ac05a;
 }
 
+//colors
+
 .green {
   background-color: #05a66c;
   color: #fff;
+
+  &:hover {
+    background-color: #059862;
+  }
+}
+
+.light-yellow-hover {
+  background-color: #fff4a3;
+
+  &:hover {
+    background-color: #fff080;
+  }
 }
 
 .light-yellow {
@@ -37,6 +63,19 @@ a {
 
 .yellow-smooth {
   background-color: #eae098;
+
+  &:hover {
+    background-color: #fff4a3;
+  }
+}
+
+.black-hover {
+  background-color: #282a35;
+  color: #fff;
+
+  &:hover {
+    background-color: #000;
+  }
 }
 
 .black {
@@ -48,12 +87,24 @@ a {
   background-color: #ffc0c7;
 }
 
+.pink-hover {
+  background-color: #ffc0c7;
+
+  &:hover {
+    background-color: #ffb3bb;
+  }
+}
+
 .pink-smooth {
   background-color: #f3ecea;;
 }
 
 .Blackish-pink {
   background-color: #eab1b8;
+
+  &:hover {
+    background-color: #ffc0c7;
+  }
 }
 
 .sky-blue {
@@ -62,15 +113,27 @@ a {
 
 .cyan {
   background-color: #8bc3c4;
+
+  &:hover {
+    background-color: #96d4d4;
+  }
 }
 
 .white {
   background-color: #fff;
   color: #000;
+
+  &:hover {
+    background-color: #e7e9eb;
+  }
 }
 
 .white-smooth {
   background-color: #dfd9d8;
+
+  &:hover {
+    background-color: #f3ecea;
+  }
 }
 
 .green-smooth {
@@ -79,6 +142,10 @@ a {
 
 .light-green {
   background-color: #c8dbd0;
+
+  &:hover {
+    background-color: #d9eee1;
+  }
 }
 
 .light-blue {
@@ -96,6 +163,29 @@ a {
 
 .fs-5 {
   font-size: 3.8em;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.code-fs {
+  font-size: 1.05em;
+}
+
+.html-code-wrapper {
+
+  &:before {
+    content: ' \003C';
+    color: blue;
+    font-size: 1.2em;
+  }
+
+  &:after {
+    content: ' \003E';
+    color: blue;
+    font-size: 1.2em;
+  }
 }
 
 .link {
@@ -184,14 +274,13 @@ a {
   }
 
   &-right-general-codeBoard {
-    height: 19em;
+    height: 18em;
     background-color: #fff;
     border-left: 4px solid #04AA6D;
     padding: 15px 0 0 15px;
   }
 
   &-right-try-it-link {
-    background-color: #04aa6d;
     padding: 0.75em 0;
     color: #fff;
     text-align: center;

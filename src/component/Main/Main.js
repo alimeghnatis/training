@@ -13,22 +13,74 @@ function Main() {
             <p className="lessons-left-introduction">The language for building web pages</p>
             <a className="link green" href="#">Learn HTML</a>
             <br />
-            <a className="link light-yellow" href="#">Video Tutorial</a>
+            <a className="link light-yellow-hover" href="#">Video Tutorial</a>
             <br />
-            <a className="link black" href="#">HTML Reference</a>
+            <a className="link black-hover" href="#">HTML Reference</a>
             <br />
-            <a className="link pink" href="#">Get Certified</a>
+            <a className="link pink-hover" href="#">Get Certified</a>
           </div>
           <div className="lessons-right-content">
-            <div className="code-board-wrapper">
+             <div className="code-board-wrapper">
               <h3 className="lessons-right-codeBoard-title">HTML Example:</h3>
               <div className="lessons-right-general-codeBoard">
                 <div className="code-space-wrapper">
-                
+                  <div className="html-code-wrapper">
+                    <span className="brown code-mr code-fs">!DOCTYPE</span>
+                    <span className="orange code-fs">html</span>
+                  </div>
+                  <div className="html-code-wrapper">
+                    <span className="brown code-fs">html</span>
+                  </div>
+                  <div className="html-code-wrapper">
+                    <span className="brown code-fs">head</span>
+                  </div>
+                  <div className="flex-row">
+                    <div className="html-code-wrapper">
+                      <span className="brown code-fs">title</span>
+                    </div>
+                    <span><span className="code-mr">HTML</span>Tutorial</span>
+                    <div className="html-code-wrapper">
+                      <span className="brown code-fs">/title</span>
+                    </div>
+                  </div>
+                  <div className="html-code-wrapper">
+                    <span className="brown code-fs">/head</span>
+                  </div>
+                  <div className="html-code-wrapper">
+                    <span className="brown code-fs">body</span>
+                  </div>
+                  <br />
+                  <br />
+                  <div className="flex-row">
+                    <div className="html-code-wrapper">
+                      <span className="brown code-fs">h1</span>
+                    </div>
+                    <span><span className="code-mr code-fs">This</span><span className="code-mr code-fs">is</span><span className="code-mr code-fs">a</span> heading</span>
+                    <div className="html-code-wrapper">
+                      <span className="brown code-fs">/h1</span>
+                    </div>
+                  </div>
+                  <div className="flex-row">
+                    <div className="html-code-wrapper">
+                      <span className="brown code-fs">p</span>
+                    </div>
+                    <span className="code-fs"><span className="code-mr code-fs">This</span><span className="code-mr code-fs">is</span><span className="code-mr code-fs">a</span> paragraph.</span>
+                    <div className="html-code-wrapper">
+                      <span className="brown code-fs">/p</span>
+                    </div>
+                  </div>
+                  <br />
+                  <br />
+                  <div className="html-code-wrapper">
+                    <span className="brown code-fs">/body</span>
+                  </div>
+                  <div className="html-code-wrapper">
+                    <span className="brown code-fs">/html</span>
+                  </div>
                 </div> 
               </div>
             </div>
-            <a className="lessons-right-try-it-link" href="#">Try it Yourself</a>
+            <a className="lessons-right-try-it-link green" href="#">Try it Yourself</a>
           </div>
         </section>
         <section className="lessons-section lessons-padding light-yellow" id="css-review">
@@ -37,9 +89,9 @@ function Main() {
             <p className="lessons-left-introduction">The language for styling web pages</p>
             <a className="link green" href="#">Learn CSS</a>
             <br />
-            <a className="link black" href="#">CSS Reference</a>
+            <a className="link black-hover" href="#">CSS Reference</a>
             <br />
-            <a className="link pink" href="#">Get Certified</a>
+            <a className="link pink-hover" href="#">Get Certified</a>
           </div>
           <div className="lessons-right-content">
             <div className="code-board-wrapper">
@@ -50,7 +102,7 @@ function Main() {
                 </div> 
               </div>
             </div>
-            <a className="lessons-right-try-it-link" href="#">Try it Yourself</a>
+            <a className="lessons-right-try-it-link green" href="#">Try it Yourself</a>
           </div>
         </section>
         <section className="lessons-section lessons-padding black" id="js-review">
@@ -61,7 +113,7 @@ function Main() {
             <br />
             <a className="link white" href="#">JavaScript Reference</a>
             <br />
-            <a className="link pink" href="#">Get Certified</a>
+            <a className="link pink-hover" href="#">Get Certified</a>
           </div>
           <div className="lessons-right-content">
             <div className="code-board-wrapper">
@@ -72,7 +124,7 @@ function Main() {
                 </div> 
               </div>
             </div>
-            <a className="lessons-right-try-it-link" href="#">Try it Yourself</a>
+            <a className="lessons-right-try-it-link green" href="#">Try it Yourself</a>
           </div>
         </section>
         <section className="lessons-section lessons-padding pink-smooth" id="python-review">
@@ -81,9 +133,9 @@ function Main() {
             <p className="lessons-left-introduction">A popular programming language</p>
             <a className="link green" href="#">Learn Python</a>
             <br />
-            <a className="link black" href="#">Python Reference</a>
+            <a className="link black-hover" href="#">Python Reference</a>
             <br />
-            <a className="link pink" href="#">Get Certified</a> 
+            <a className="link pink-hover" href="#">Get Certified</a> 
           </div>
           <div className="lessons-right-content">
             <div className="code-board-wrapper">
@@ -94,7 +146,7 @@ function Main() {
                 </div>
               </div>
             </div>
-            <a className="lessons-right-try-it-link" href="#">Try it Yourself</a>
+            <a className="lessons-right-try-it-link green" href="#">Try it Yourself</a>
           </div>
         </section>
         <section className="lessons-section lessons-padding sky-blue" id="sql-review">
@@ -103,9 +155,9 @@ function Main() {
             <p className="lessons-left-introduction">A language for accessing databases</p>
             <a className="link green" href="#">Learn SQL</a>
             <br />
-            <a className="link black" href="#">SQL Reference</a>
+            <a className="link black-hover" href="#">SQL Reference</a>
             <br />
-            <a className="link pink" href="#">Get Certified</a>  
+            <a className="link pink-hover" href="#">Get Certified</a>  
           </div>
           <div className="lessons-right-content">
             <div className="code-board-wrapper">
@@ -116,7 +168,7 @@ function Main() {
                 </div> 
               </div>
             </div>
-            <a className="lessons-right-try-it-link" href="#">Try it Yourself</a>
+            <a className="lessons-right-try-it-link green" href="#">Try it Yourself</a>
           </div>
         </section>
       </div>
@@ -130,7 +182,7 @@ function Main() {
               <div className="cards-introduction-wrapper">
                 <h5 className="cards-introduction">A web server programming language</h5>
               </div>
-              <a className="link black" href="#">Learn PHP</a>
+              <a className="link black-hover" href="#">Learn PHP</a>
             </div>
           </div>
           <div className="cards-section light-yellow" id="jQuary-card">
@@ -139,7 +191,7 @@ function Main() {
               <div className="cards-introduction-wrapper">
                 <h5 className="cards-introduction">A JS library for developing web pages</h5>
               </div>
-              <a className="link black" href="#">Learn jQuary</a>
+              <a className="link black-hover" href="#">Learn jQuary</a>
             </div>
           </div>
           <div className="cards-section pink-smooth" id="java-card">
@@ -148,7 +200,7 @@ function Main() {
               <div className="cards-introduction-wrapper">
                 <h5 className="cards-introduction">A programming language</h5>
               </div>
-              <a className="link black" href="#">Learn Java</a>
+              <a className="link black-hover" href="#">Learn Java</a>
             </div>
           </div>
           <div className="cards-section green-smooth" id="C++-card">
@@ -157,7 +209,7 @@ function Main() {
               <div className="cards-introduction-wrapper">
                 <h5 className="cards-introduction">A programming language</h5>
               </div>
-              <a className="link black" href="#">Learn C++</a>
+              <a className="link black-hover" href="#">Learn C++</a>
             </div>
           </div>
           <div className="cards-section sky-blue" id="w3-card">
@@ -166,7 +218,7 @@ function Main() {
               <div className="cards-introduction-wrapper">
                 <h5 className="cards-introduction">A CSS framework for faster and better responsive web pages</h5>
               </div>
-              <a className="link black" href="#">Learn W3.CSS</a>
+              <a className="link black-hover" href="#">Learn W3.CSS</a>
             </div>
           </div>
           <div className="cards-section light-blue" id="bootstrap-card">
@@ -175,7 +227,7 @@ function Main() {
               <div className="cards-introduction-wrapper">
                 <h5 className="cards-introduction">A CSS framework for designing better web pages</h5>
               </div>
-              <a className="link black" href="#">Learn Bootstrap</a>
+              <a className="link black-hover" href="#">Learn Bootstrap</a>
             </div>
           </div>
         </div>
@@ -343,7 +395,7 @@ function Main() {
               <a className="code-editor--link green" href="#">Try Frontend Editor (HTML/CSS/JS)</a>
             </div>
             <div className="code-editor--back-link-wrapper">
-              <a className="code-editor--link light-yellow" href="#">Try Backend Editor (Python/PHP/Java/C..)</a>
+              <a className="code-editor--link light-yellow-hover" href="#">Try Backend Editor (Python/PHP/Java/C..)</a>
             </div>
           </div>
         </div>
@@ -433,7 +485,7 @@ function Main() {
             <img className="code-game--img" src={require('../../images/w3lynx_200.png')} alt="" />
             </a>
           </div>
-          <a className="code-game--link black" href="#">Play Game</a>
+          <a className="code-game--link black-hover" href="#">Play Game</a>
         </div>
       </div>
       
@@ -447,7 +499,7 @@ function Main() {
               <a className="exercise-item-link green" href="#">Exercises</a>
             </div>
             <div className="exercise-item">
-              <a className="exercise-item-link light-yellow" href="#">Quizzes</a>
+              <a className="exercise-item-link light-yellow-hover" href="#">Quizzes</a>
             </div>
           </div>
         </div>
@@ -463,7 +515,7 @@ function Main() {
               <img className="web-template--img" src={require('../../images/w3css_templates.jpg')} alt="" />
             </a>
           </div>
-          <a className="web-template--link black" href="#">Browse Templates</a>
+          <a className="web-template--link black-hover" href="#">Browse Templates</a>
         </div>
       </div>
       
@@ -503,7 +555,7 @@ function Main() {
               <div className="how-section--column black"></div>
             </div>
           </div>
-          <a className="how-section--link black" href="#">Learn How To</a>
+          <a className="how-section--link black-hover" href="#">Learn How To</a>
         </div>
       </div>
 
