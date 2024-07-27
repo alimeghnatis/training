@@ -14,16 +14,28 @@
   width: 20px;
 }
 
+.plusimg{
+  width: 25px;
+}
+
+.spacesimg{
+  width: 25px;
+}
+
+.certifiedimg{
+  width: 25px;
+}
+
 
 
 //mobile media
-@media screen and (min-width:1283px){
+@media screen and (min-width:1200px){
 
   //grid-codes
   
   .header{
     display: grid;
-    grid-template-columns: 75px  104px 104px 104px 104px 52px 52px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 75px 104px 104px 104px 104px 52px 52px 1fr 1fr 1fr 1fr 75px 80px 122px 1fr;
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
@@ -55,6 +67,10 @@
       .tutorial-text{
         text-decoration: none;
         color: inherit;
+      }
+
+      .menudn-1{
+        display: none;
       }
     }
 
@@ -142,14 +158,51 @@
 
     .plus{
       grid-area: 1/12/2/13;
+      color: #000;
+      height: 56px;
+      width: 75px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+
+      .plus-text{
+        color: inherit;
+        text-decoration: none;
+      }
     }
 
     .spaces{
       grid-area: 1/13/2/14;
+      color: #000;
+      height: 56px;
+      width: 80px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+
+      .spaces-text{
+        color: inherit;
+        text-decoration: none;
+      }
     }
 
     .get-certified{
       grid-area: 1/14/2/15; 
+      color: #000;
+      height: 56px;
+      width: 122px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+
+      .certified-text{
+        color: inherit;
+        text-decoration: none;
+      }
+
     }
 
     .sign{

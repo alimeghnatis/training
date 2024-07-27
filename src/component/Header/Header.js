@@ -13,6 +13,7 @@ function Header() {
       </div>
       <div className="tutorial">
         <a href="" className="tutorial-text">Tutorials</a>
+        <a href="" className="menudn-1">Menu</a>
         <img src={require('../image/back-up-down-svgrepo-com.png')} alt="" className="dropdownimg"/>
       </div>
       <div className="exercises">
@@ -34,13 +35,16 @@ function Header() {
         <img src={require('../image/dark-theme-svgrepo-com.png')} alt="" className="darkimg" />
       </div>
       <div className="plus">
-
+        <img src={require('../image/stars-svgrepo-com.png')} alt="" className="plusimg" />
+        <a href="" className="plus-text">Plus</a>
       </div>
       <div className="spaces">
-
+        <img src={require('../image/code-svgrepo-com.png')} alt="" className="spacesimg"/>
+        <a href="" className="spaces-text">Spaces</a>
       </div>
       <div className="get-certified">
-
+        <img src={require('../image/shop-cart-svgrepo-com.png')} alt="" className="certifiedimg"/>
+        <a href="" className="certified-text">Get Certified</a>
       </div>
       <div className="sign">
 
