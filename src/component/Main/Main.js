@@ -482,6 +482,31 @@ function Main() {
         </div>
       </div>
 
+      {/* how */}
+      <div className="how-section">
+        <div className="how-section--container">
+          <h2 className="how-section--title">How To Section</h2>
+          <h4 className="how-section--introduction">Code snippets for HTML, CSS and JavaScript</h4>
+          <h6 className="how-section--caption">For example, how to create a slideshow:</h6>
+          <div className="how-section--desktop-display">
+            <div className="how-section--desktop-display-header">
+              <div className="how-section--circles-wrapper">
+                <span className="circle red-circle"></span>
+                <span className="circle yellow-circle"></span>
+                <span className="circle green-circle"></span>
+              </div>
+              <div className="how-section--input-wrapper">
+                <input className="how-section--input" type="text" disabled value="www.w3schools.com/howto/" />
+              </div>
+            </div>
+            <div className="how-section--column-wrapper">
+              <div className="how-section--column black"></div>
+            </div>
+          </div>
+          <a className="how-section--link black" href="#">Learn How To</a>
+        </div>
+      </div>
+
     </main>  
   ) 
 }

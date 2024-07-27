@@ -293,6 +293,7 @@ a {
 
   &--wrapper {
     text-align: start;
+    min-width: 20em;
   }
 
   &--header {
@@ -709,6 +710,79 @@ a {
   }
 }
 
+//how-to section
+.how-section {
+
+  &--container {
+    padding: 6em 1.5em 6em;
+  }
+
+  &--title {
+    font-size: 3.8em;
+    font-weight: 700;
+  }
+
+  &--introduction {
+    font-size: 1.25em;
+    font-weight: 600;
+    margin: 1.35em 0 1.2em;
+  }
+
+  &--caption {
+    font-size: 1.03em;
+    font-weight: 600;
+  }
+
+  &--desktop-display {
+    margin-top: 2.35em; 
+    text-align: start; 
+
+    &-header {
+      display: flex;
+      padding: 0.8em;
+      background: #f1f1f1;
+      border-top-left-radius: 0.2em;
+      border-top-right-radius: 0.2em;
+      min-width: 18em;
+    }
+  }
+  
+  &--circles-wrapper {
+    width: 25%;
+  }
+
+  &--input-wrapper {
+    width: 80%;
+  }
+
+  &--input {
+    width: 80%;
+    border-radius: 3px;
+    border: none;
+    background-color: white;
+    height: 1em;
+    color: #666;
+    font-size: 0.9em;
+    padding: 0.3em;
+    font-weight: 600;
+    margin-top: -1em;
+  }
+
+  &--column {
+    height: 3em;
+    width: 3em;
+    margin: 0 auto;
+  }
+
+  &--link {
+    font-size: 1.25em;
+    font-weight: 500;
+    display: block;
+    padding: 1em 0;
+    border-radius: 1em;
+  } 
+}
+
 //responsive
 @media (min-width:601px) {
   .lessons {
@@ -837,6 +911,15 @@ a {
       text-align: center;
     }
   }
+
+  .how-section {
+
+    &--link {
+      display: inline-block;
+      width: 50%;
+    }
+  }
+
 }
 @media (min-width:769px) {
   .fs-4 {
@@ -998,6 +1081,14 @@ a {
     &-arrow-img-wrapper {
       top: 18em;
       right: 16em;
+    }
+  }
+
+  .how-section {
+
+    &--container {
+      width: 58em;
+      margin: 0 auto;
     }
   }
 }
