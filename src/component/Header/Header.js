@@ -47,7 +47,8 @@ function Header() {
         <a href="" className="certified-text">Get Certified</a>
       </div>
       <div className="sign">
-
+        <a href="" className="signup">SignUp</a>
+        <a href="" className="login">LogIn</a>
       </div>
     </div>
 
