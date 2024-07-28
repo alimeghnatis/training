@@ -6,94 +6,12 @@
     background-position: center bottom , left top;  
     display: flex;
     justify-content: center;
-
-    .space{
-      padding-bottom: 400px;
-      //padding-top: 40px;
-      //padding-right: 80px;
-      //padding-left: 80px;
-    }
+    background-size: 500px, auto;
   }
-
-  .up-menu{
-    display: flex;
-    flex-direction: column;
-    
-    .uper-link{
-      padding: 18px 0px;
-
-      .upl-a{
-        text-decoration: none;
-        color: #FFF4A3;
-        font-size: 20px;
-      }
-    }
-  }
-
-  .mid-menu{
-    display: flex;
-    flex-direction: column;
-
-    .midm-block{
-      color: #ddd;
-      display: flex;
-      flex-direction: column;
-      gap: 3px;
-    
-
-      .mmb-title{
-        color: inherit;
-        margin-bottom: 20px;
-        margin-top: 40px;
-        font-size: 23px;
-      }
-
-      .ga-button{
-        color: inherit;
-        text-decoration: none;
-      }
-    }
-  }
-
-  .social{
-    padding: 60px 40px 20px 40px;
-    color: #ddd;
-    display: block;
-
-    .blank{
-      color: inherit;
-      text-decoration: none;
-      margin-right: 7px;
-
-    }
-    .blank2{
-      color: inherit;
-      text-decoration: none;
-      //margin-right: 10px;
-      font-size: 14px;
-
-    }
-    
-  }
-
-  .line{
-    margin-top: 16px;
-  }
-
-  .ftext{
-    color: #ddd;
-    font-size: 12px;
-
-    .gabot{
-      color: inherit;
-      text-decoration: underline;
-    }
-  }
-
 }
 
 
-@media (min-width:993px) and (max-width:1200px){
+@media (min-width:993px) {
   .footer{
     background-image: url(./images/lynx_landing.png), url(./images/background_in_space.jpg);
     background-color: #282A35;
@@ -101,110 +19,8 @@
     background-position: right bottom, center center /*left top*/;
     display: block;
     font-size: 15px;
-
-    .space{
-      padding: 40px 80px 300px 80px;
-      max-width: 1400px;
-
-      .up-menu{
-
-        .uper-link{
-          padding: 40px 30px;
-          float: left;
-          color: #FFF4A3;
-          padding-left: 2.6%;
-          padding-right: 2.6%;
-          
-          .upl-a{
-            color: inherit;
-            text-decoration: none;
-            cursor: pointer;
-          }
-        }
-        .uper-link:first-child{
-          padding: 40px 10px 40px 40px;
-        }
-
-      }
-    }
+    background-size: 500px, auto;
+    height: 861px;
   }
-
-
-  .mid-menu{
-    display: block;
-
-    .midm-block{
-      padding-left: 33px;
-      padding-right: 63px;
-      float: left;
-      color: #ddd;
-      font-size: 12px;
-      width: auto;
-     
-      .mmb-title{
-        color: #ddd;
-        margin-top: 10px;
-        margin-bottom: 20px;
-        font-size: 18px;
-        text-align: left;
-      }
-      .ga-button{
-        color: inherit;
-        text-decoration: none;
-        font-size: 14px;
-        float: left;
-        margin-bottom: 0.6em;
-        cursor: pointer;
-      }
-
-    }
-    .midm-block:last-child{
-      padding-right: 0px;
-    }
-  }
-
-  .social{
-    padding: 60px 40px 10px 30px;
-    display: inline-flex; 
-    float: left;
-    color: #ddd;
-    font: 20px;
-    
-    .blank{
-      margin-right: 10px;
-      color: inherit;
-      cursor: pointer;
-      text-decoration: none;
-    }
-    .line{
-      margin-right: 10px;
-    }
-    .blank2{
-      cursor: pointer;
-      color: inherit;
-      text-decoration: none;
-      margin-right: 10px;
-      
-    }
-  }
-
-  .ftext{
-    display: inline-block;
-    text-align: left;
-    color: #ddd;
-    padding-bottom: 120px;
-    font-size: 14px;
-    text-align: left;
-    margin-left: 30px;
-
-    .gabot{
-      text-decoration: underline;
-      color: inherit;
-    }
-  }
-
 }
-
-
-
 
