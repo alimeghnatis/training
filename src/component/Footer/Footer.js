@@ -61,7 +61,7 @@ function Footer() {
         <a href="" className="exaples-link">Bootstrap Examples</a>
         <a href="" className="exaples-link">PHP Examples</a>
         <a href="" className="exaples-link">Java Examples</a>
-        <a href="" className="exaples-link">XML Examples</a
+        <a href="" className="exaples-link">XML Examples</a>
         <a href="" className="exaples-link">JQuery Examples</a>
       </div>
 
@@ -79,6 +79,38 @@ function Footer() {
         <a href="" className="certified-link">C++ Certified</a>
         <a href="" className="certified-link">C# Certified</a>
         <a href="" className="certified-link">XML Certified</a>
+      </div>
+
+      <div className="social-menu">
+        <a href="" className="social-link">YT</a>  
+        <a href="" className="social-link">LK</a>
+        <a href="" className="social-link">DS</a>
+        <a href="" className="social-link">FB</a>
+        <a href="" className="social-link">IG</a>
+        <a href="" className="social-link">FORUM</a>
+        <a href="" className="social-link">ABOUT</a>
+        <a href="" className="social-link">CLASSROOM</a>
+      </div>
+
+      <div className="copyright">
+        W3Schools is optimized for learning and training. Examples might be simplified to improve reading and learning.
+        <br/>
+        Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness
+        <br/>
+        of all content. While using W3Schools, you agree to have read and accepted our
+        <br/>
+        <a href="" className="cr-link">terms of use</a>
+        , 
+        <a href="" className="cr-link">cookie and privacy</a>
+        .
+        <br/>
+        <br/>
+        <a href="" className="cr-link">Copyright 1999-2024</a>
+         by Refsnes Data. All Rights Reserved.
+        <a href="" className="cr-link">W#Schools is Powers by W3.CSS</a>
+        .
+        <br/>
+        <br/>
       </div>
     </div>
 
