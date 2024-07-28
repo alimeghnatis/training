@@ -8,27 +8,13 @@ function Footer() {
 
     <div className="footer">
       <div className="top-menu">
-        <a href="" className="top-link">
-          W3
-        </a>
-        <a href="" className="top-link">
-          SPACES
-        </a>
-        <a href="" className="top-link">
-          UPGRADE
-        </a>
-        <a href="" className="top-link">
-          AD-FREE  
-        </a>
-        <a href="" className="top-link">
-          NEWSLETTER
-        </a>
-        <a href="" className="top-link">
-          GET-CERTIFIED
-        </a>
-        <a href="" className="top-link">
-          CONTACT-US
-        </a>
+        <a href="" className="top-link">W3</a>
+        <a href="" className="top-link">SPACES</a>
+        <a href="" className="top-link">UPGRADE</a>
+        <a href="" className="top-link">AD-FREE</a>
+        <a href="" className="top-link">NEWSLETTER</a>
+        <a href="" className="top-link">GET-CERTIFIED</a>
+        <a href="" className="top-link">CONTACT-US</a>
       </div>
 
       <div className="tutorial-menu">
@@ -61,6 +47,38 @@ function Footer() {
         <a href="" className="refrences-link">Java Refrences</a>  
         <a href="" className="refrences-link">Angular Refrences</a>  
         <a href="" className="refrences-link">JQuery Refrences</a>
+      </div>
+
+      <div className="examples-menu">
+        <h5 className="exaples-text">Top Examples</h5>
+        <a href="" className="exaples-link">HTML Examples</a>       
+        <a href="" className="exaples-link">CSS Examples</a>
+        <a href="" className="exaples-link">JavaScript Examples</a>
+        <a href="" className="exaples-link">HowTo Examples</a>
+        <a href="" className="exaples-link">SQL Examples</a>
+        <a href="" className="exaples-link">Python Examples</a>
+        <a href="" className="exaples-link">W3.CSS Examples</a>
+        <a href="" className="exaples-link">Bootstrap Examples</a>
+        <a href="" className="exaples-link">PHP Examples</a>
+        <a href="" className="exaples-link">Java Examples</a>
+        <a href="" className="exaples-link">XML Examples</a
+        <a href="" className="exaples-link">JQuery Examples</a>
+      </div>
+
+      <div className="certified-menu">
+        <h5 className="certified-text">Get Certified</h5>
+        <a href="" className="certified-link">HTML Certified</a>
+        <a href="" className="certified-link">CSS Certified</a>
+        <a href="" className="certified-link">JavaScript Certified</a>
+        <a href="" className="certified-link">FrontEnd Certified</a>
+        <a href="" className="certified-link">SQL Certified</a>
+        <a href="" className="certified-link">Python Certified</a>
+        <a href="" className="certified-link">PHP Certified</a>
+        <a href="" className="certified-link">JQuery Certified</a>
+        <a href="" className="certified-link">Java Certified</a>
+        <a href="" className="certified-link">C++ Certified</a>
+        <a href="" className="certified-link">C# Certified</a>
+        <a href="" className="certified-link">XML Certified</a>
       </div>
     </div>
 
