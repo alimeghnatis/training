@@ -13,10 +13,6 @@ a {
 
 //global classes
 
-.code-mr {
-  margin-right: 0.7em;
-}
-
 //colors
 .brown {
   color: #a52a2a;
@@ -148,8 +144,16 @@ a {
   }
 }
 
+.blue {
+  color: #1028dd;
+}
+
 .light-blue {
   background-color: #e7e9eb;
+}
+
+.black-color {
+  color: #000;
 }
 
 //font size
@@ -170,22 +174,51 @@ a {
 }
 
 .code-fs {
-  font-size: 1.05em;
+  font-size: 0.9em;
+}
+
+.code-mr {
+  margin-right: 0.5em;
+}
+
+.code-mb {
+  margin-bottom: 0.25em;
+}
+
+.css-code-mb {
+  margin-bottom: 0.5em;
 }
 
 .html-code-wrapper {
 
   &:before {
     content: ' \003C';
-    color: blue;
-    font-size: 1.2em;
+    color: #1028dd;
   }
 
   &:after {
     content: ' \003E';
-    color: blue;
-    font-size: 1.2em;
+    color: #1028dd;
+    margin-left: -0.55em;
   }
+}
+
+.css-left-curly-bracket:after {
+  content: ' \007B';
+  color: #000;
+}
+
+.css-right-curly-bracket:after {
+  content: ' \007D';
+  color: #000;
+}
+
+.css-code-ml {
+  margin-left: 1.3em;
+}
+
+.css-curly-bracket-mb {
+  margin-bottom: 1.7em;
 }
 
 .link {
@@ -290,6 +323,10 @@ a {
     font-size: 1.1em;
     display: inline-block;
     font-weight: 600;
+  }
+
+  &-right-code-space-wrapper {
+    font-family: "Courier New";
   }
 }
 
@@ -1097,7 +1134,7 @@ a {
 
     &-section {
       flex-direction: row;
-      padding: 2.5em 2em;
+      padding: 2.5em 0;
     }
 
     &-left-content {

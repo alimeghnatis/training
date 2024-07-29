@@ -23,18 +23,18 @@ function Main() {
              <div className="code-board-wrapper">
               <h3 className="lessons-right-codeBoard-title">HTML Example:</h3>
               <div className="lessons-right-general-codeBoard">
-                <div className="code-space-wrapper">
-                  <div className="html-code-wrapper">
+                <div className="lessons-right-code-space-wrapper">
+                  <div className="html-code-wrapper code-mb">
                     <span className="brown code-mr code-fs">!DOCTYPE</span>
                     <span className="orange code-fs">html</span>
                   </div>
-                  <div className="html-code-wrapper">
+                  <div className="html-code-wrapper code-mb">
                     <span className="brown code-fs">html</span>
                   </div>
-                  <div className="html-code-wrapper">
+                  <div className="html-code-wrapper code-mb">
                     <span className="brown code-fs">head</span>
                   </div>
-                  <div className="flex-row">
+                  <div className="flex-row code-mb">
                     <div className="html-code-wrapper">
                       <span className="brown code-fs">title</span>
                     </div>
@@ -43,35 +43,35 @@ function Main() {
                       <span className="brown code-fs">/title</span>
                     </div>
                   </div>
-                  <div className="html-code-wrapper">
+                  <div className="html-code-wrapper code-mb">
                     <span className="brown code-fs">/head</span>
                   </div>
-                  <div className="html-code-wrapper">
+                  <div className="html-code-wrapper code-mb">
                     <span className="brown code-fs">body</span>
                   </div>
                   <br />
                   <br />
-                  <div className="flex-row">
+                  <div className="flex-row code-mb">
                     <div className="html-code-wrapper">
                       <span className="brown code-fs">h1</span>
                     </div>
-                    <span><span className="code-mr code-fs">This</span><span className="code-mr code-fs">is</span><span className="code-mr code-fs">a</span> heading</span>
+                    <span><span className="code-mr">This</span><span className="code-mr">is</span><span className="code-mr">a</span>heading</span>
                     <div className="html-code-wrapper">
                       <span className="brown code-fs">/h1</span>
                     </div>
                   </div>
-                  <div className="flex-row">
+                  <div className="flex-row code-mb">
                     <div className="html-code-wrapper">
                       <span className="brown code-fs">p</span>
                     </div>
-                    <span className="code-fs"><span className="code-mr code-fs">This</span><span className="code-mr code-fs">is</span><span className="code-mr code-fs">a</span> paragraph.</span>
+                    <span><span className="code-mr">This</span><span className="code-mr">is</span><span className="code-mr">a</span>paragraph.</span>
                     <div className="html-code-wrapper">
                       <span className="brown code-fs">/p</span>
                     </div>
                   </div>
                   <br />
                   <br />
-                  <div className="html-code-wrapper">
+                  <div className="html-code-wrapper code-mb">
                     <span className="brown code-fs">/body</span>
                   </div>
                   <div className="html-code-wrapper">
@@ -97,8 +97,37 @@ function Main() {
             <div className="code-board-wrapper">
               <h3 className="lessons-right-codeBoard-title">CSS Example:</h3>
               <div className="lessons-right-general-codeBoard">
-                <div className="code-space-wrapper">
-                
+                <div className="lessons-right-code-space-wrapper">
+                  <div className="css-code-mb">
+                    <span className="brown fs-code css-left-curly-bracket">body</span>
+                  </div>
+                  <div className="css-code-mb css-code-ml">
+                    <span className="orange">background-color<span className="black-color">:</span></span>
+                    <span className="blue">lightblue<span className="black-color">;</span></span> 
+                  </div>
+                  <div className="css-right-curly-bracket css-curly-bracket-mb"></div> 
+                  <div className="css-code-mb">
+                    <span className="brown fs-code css-left-curly-bracket">h1</span>
+                  </div>
+                  <div>
+                    <div className="css-code-mb css-code-ml">
+                      <span className="orange">color<span className="black-color">:</span></span>
+                      <span className="blue">white<span className="black-color">;</span></span>
+                    </div>
+                    <div className="css-code-mb css-code-ml">
+                      <span className="orange">text-align<span className="black-color">:</span></span>
+                      <span className="blue">center<span className="black-color">;</span></span>
+                    </div> 
+                  </div>
+                  <div className="css-right-curly-bracket css-curly-bracket-mb"></div>
+                  <div className="css-code-mb">
+                    <span className="brown fs-code css-left-curly-bracket">p</span>
+                  </div>
+                  <div className="css-code-mb css-code-ml">
+                    <span className="orange">font-family<span className="black-color">:</span></span>
+                    <span className="blue">verdana<span className="black-color">;</span></span>
+                  </div>
+                  <div className="css-right-curly-bracket css-curly-bracket-mb"></div>
                 </div> 
               </div>
             </div>
@@ -119,7 +148,7 @@ function Main() {
             <div className="code-board-wrapper">
               <h3 className="lessons-right-codeBoard-title">JavaScript Example:</h3>
               <div className="lessons-right-general-codeBoard">
-                <div className="code-space-wrapper">
+                <div className="lessons-right-code-space-wrapper">
                 
                 </div> 
               </div>
@@ -141,7 +170,7 @@ function Main() {
             <div className="code-board-wrapper">
               <h3 className="lessons-right-codeBoard-title">Python Example:</h3>
               <div className="lessons-right-general-codeBoard">
-                <div className="code-space-wrapper">
+                <div className="lessons-right-code-space-wrapper">
                 
                 </div>
               </div>
@@ -163,7 +192,7 @@ function Main() {
             <div className="code-board-wrapper">
               <h3 className="lessons-right-codeBoard-title">SQL Example:</h3>
               <div className="lessons-right-general-codeBoard">
-                <div className="code-space-wrapper">
+                <div className="lessons-right-code-space-wrapper">
                 
                 </div> 
               </div>
