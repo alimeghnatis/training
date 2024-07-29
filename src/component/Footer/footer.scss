@@ -1,3 +1,14 @@
+
+.top-menu{
+  .top-link{
+    color: #FFF4A3;
+    font-size: 18px;
+    text-decoration: none;
+  }
+}
+
+
+
 @media (max-width:992px) {
   //backgroundimg
   .footer{
@@ -7,6 +18,15 @@
     display: flex;
     justify-content: center;
     background-size: 500px, auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .top-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
 }
 
