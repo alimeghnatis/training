@@ -1,35 +1,518 @@
-.header {
-  width: 100%;
-  background-color: #f2f3f5;
+.logo-img{
+  width: 40px;
+}
+
+.dropdownimg{
+  width: 15px;
+}
+
+.searchimg{
+  width: 20px;
+}
+
+.darkimg{
+  width: 20px;
+}
+
+.plusimg{
+  width: 25px;
+}
+
+.spacesimg{
+  width: 25px;
+}
+
+.certifiedimg{
+  width: 25px;
+}
+
+
+
+
+@media screen and (min-width:1252px){
+
+  //grid-codes
   
-  .logo {
-    display: inline-block;
-    width: 20%;
+  .header{
+    display: grid;
+    grid-template-columns: 75px 104px 104px 104px 104px 52px 52px 1fr 1fr 1fr 1fr 75px 80px 122px 180px;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 56px;
+    background-color: #ddd;
+    align-items: center;
+    justify-items: center;
+    gap: 14px;
 
-    > img {
-      width: 100%;
+    .w3s-logo{
+      grid-area: 1/1/2/2;     
     }
-  }
 
-  .menu {
-    display:inline-block;
-
-    > li {
-      padding: 1em;
-      display: inline-block;
-
-      &:hover {
-        background-color: lightgreen;
+    .tutorial{
+      grid-area: 1/2/2/3;
+      color: #000;
+      height: 56px;
+      width: 104px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      
+      &:hover{
+        color: #ddd;
+        background-color: #04AA6D;
       }
 
-      > a {
-        color: black;
+      .tutorial-text{
         text-decoration: none;
+        color: inherit;
+      }
 
-        &:hover {
-          color: darkgray;
+      .menudn-1{
+        display: none;
+      }
+    }
+
+    .exercises{
+      grid-area: 1/3/2/4;
+      color: #000;
+      height: 56px;
+      width: 104px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+
+      &:hover{
+        color: #ddd;
+        background-color: #04AA6D;
+      }
+
+      .exercises-text{
+        text-decoration: none;
+        color: inherit;  
+      }
+    }
+
+    .certificates{
+      grid-area: 1/4/2/5;
+      color: #000;
+      height: 56px;
+      width: 104px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+
+      &:hover{
+        color: #ddd;
+        background-color: #04AA6D;
+      }
+
+      .certificates-text{
+        text-decoration: none;
+        color: inherit;
+      }
+    }
+
+    .services{
+      grid-area: 1/5/2/6;
+      color: #000;
+      height: 56px;
+      width: 104px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+
+      &:hover{
+        color: #ddd;
+        background-color: #04AA6D;
+      }
+
+      .services-text{
+        text-decoration: none;
+        color: inherit;
+      }
+    }
+
+    .search{
+      grid-area: 1/6/2/7;
+      width: 52px;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+    }
+
+    .darkbut{
+      grid-area: 1/7/2/8;
+      width: 52px;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .plus{
+      grid-area: 1/12/2/13;
+      color: #000;
+      height: 56px;
+      width: 75px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+
+      .plus-text{
+        color: inherit;
+        text-decoration: none;
+      }
+    }
+
+    .spaces{
+      grid-area: 1/13/2/14;
+      color: #000;
+      height: 56px;
+      width: 80px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+
+      .spaces-text{
+        color: inherit;
+        text-decoration: none;
+      }
+    }
+
+    .get-certified{
+      grid-area: 1/14/2/15; 
+      color: #000;
+      height: 56px;
+      width: 122px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+
+      .certified-text{
+        color: inherit;
+        text-decoration: none;
+      }
+
+    }
+
+    .sign{
+      grid-area: 1/15/2/16;
+      height: 56px;
+      width: 180px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+
+      .signup{
+        padding: 14px 25px;
+        background-color: #04AA6D;
+        border-radius: 25px;
+        color: #ddd;
+        text-decoration: none;
+        z-index: 5;
+      }
+      .login{
+        padding: 14px 25px;
+        background-color: #D9EEE1;
+        border-radius:0px 25px 25px 0px;
+        color: #000;
+        text-decoration: none;
+        z-index: 4;
+        margin-left: -20px;
+
+        &:hover{
+          background-color: #4CAF50;
+          color: #ddd;
         }
       }
     }
-  } 
+  }
+
+  
+}
+
+@media screen and (min-width:786px) and (max-width:1251px){
+
+  .certificates{
+    display: none;
+  }
+  .plus{
+    display: none;
+  }
+  .spaces{
+    display: none;
+  }
+  .get-certified{
+    display: none;
+  }
+
+  .header{
+    display: grid;
+    grid-template-columns: 75px 104px 104px 104px 52px 52px 1fr 1fr 180px;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 56px;
+    background-color: #ddd;
+    align-items: center;
+    justify-items: center;
+    gap: 14px;
+
+    .w3s-logo{
+      grid-area: 1/1/2/2;
+    }
+
+    .tutorial{
+      grid-area: 1/2/2/3;
+      color: #000;
+      height: 56px;
+      width: 104px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+
+      &:hover{
+        background-color: #04AA6D;
+        color: #ddd;
+      }
+      
+      .tutorial-text{
+        text-decoration: none;
+        color: inherit;
+      }
+
+      .menudn-1{
+        display: none;
+      }
+    }
+
+    .exercises{
+      grid-area: 1/3/2/4;
+      color: #000;
+      height: 56px;
+      width: 104px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+
+      &:hover{
+        background-color: #04AA6D;
+        color: #ddd;
+      }
+
+      .exercises-text{
+        color: inherit;
+        text-decoration: none;
+      }
+    }
+
+    .services{
+      grid-area: 1/4/2/5;
+      color: #000;
+      height: 56px;
+      width: 104px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+
+      &:hover{
+        background-color: #04AA6D;
+        color: #ddd;
+      }
+
+      .services-text{
+        color: inherit;
+        text-decoration: none;
+      }
+    }
+
+    .search{
+      grid-area: 1/5/2/6;
+      width: 52px;
+      height: 56px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .darkbut{
+      grid-area: 1/6/2/7;
+      width: 52px;
+      height: 56px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .sign{
+      grid-area: 1/9/2/10;
+      height: 56px;
+      width: 180px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+
+      .signup{
+        padding: 14px 25px;
+        background-color: #04AA6D;
+        border-radius: 25px;
+        color: #ddd;
+        text-decoration: none;
+        z-index: 5;
+      }
+
+      .login{
+        padding: 14px 25px;
+        background-color: #D9EEE1;
+        border-radius: 0px 25px 25px 0px;
+        color: #000;
+        text-decoration: none;
+        z-index: 4;
+        margin-left: -20px;
+
+        &:hover{
+          background-color: #4CAF50;
+          color: #ddd;
+        }
+
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width:785px){
+  
+  .tutorial{
+    .tutorial-text{
+      display: none;
+    }
+  }
+  .exercises{
+    display: none;
+  }
+  .certificates{
+    display: none;
+  }
+  .services{
+    display: none;
+  }
+  .plus{
+    display: none;
+  }
+  .spaces{
+    display: none;
+  }
+  .get-certified{
+    display: none;
+  }
+  .sign{
+    .signup{
+      display: none;
+    }
+  }
+
+  .header{
+    display: grid;
+    grid-template-columns: 75px 80px 52px 52px 1fr 100px;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 56px;
+    background-color: #ddd;
+    align-items: center;
+    justify-items: center;
+    
+  }
+
+  .w3s-logo{
+    grid-area: 1/1/2/2;
+
+  }
+
+  .tutorial{
+    grid-area: 1/2/2/3;
+    color: #000;
+    height: 56px;
+    width: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    &:hover{
+      color: #ddd;
+      background-color: #04AA6D;
+    }
+
+    .menudn-1{
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+
+  .search{
+    grid-area: 1/3/2/4;
+    height: 56px;
+    width: 52px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .darkbut{
+    grid-area: 1/4/2/5;
+    height: 56px;
+    width: 52px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sign{
+    grid-area: 1/6/2/7;
+    height: 56px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+
+    .login{
+      padding: 14px 25px;
+      background-color: #D9EEE1;
+      border-radius: 25px;
+      color: #000;
+      text-decoration: none;
+      
+      &:hover{
+        background-color: #04AA6D;
+        color: #ddd;
+      }
+
+
+    }
+  }
+
+
 }
