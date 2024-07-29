@@ -7,6 +7,54 @@
   }
 }
 
+.tutorial-menu{
+  .tutorial-text{
+    color: #ddd;
+    font-size: 24px;
+  }
+  .tutorial-link{
+    color: #ddd;
+    font-size: 16px;
+    text-decoration: none;
+  }
+}
+
+.refrences-menu{
+  .refrences-text{
+    color: #ddd;
+    font-size: 24px;
+  }
+  .refrences-link{
+    color: #ddd;
+    font-size: 16px;
+    text-decoration: none;
+  }
+}
+
+.examples-menu{
+  .exaples-text{
+    color: #ddd;
+    font-size: 24px;
+  }
+  .exaples-link{
+    color: #ddd;
+    font-size: 16px;
+    text-decoration: none;
+  }
+}
+
+.certified-menu{
+  .certified-text{
+    color: #ddd;
+    font-size: 24px;
+  }
+  .certified-link{
+    color: #ddd;
+    font-size: 16px;
+    text-decoration: none;
+  }
+}
+
 
 
 @media (max-width:992px) {
@@ -27,6 +75,30 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+  }
+
+  .tutorial-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .refrences-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .examples-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .certified-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
   }
 }
 
