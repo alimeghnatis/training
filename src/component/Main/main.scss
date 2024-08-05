@@ -1,0 +1,1228 @@
+@use './reset.scss';
+@use './normalize.scss';
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap');
+
+.main {
+  font-family: "Source Sans 3";
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+//global classes
+
+//colors
+.brown {
+  color: #a52a2a;
+}
+
+.orange {
+  color: #ff2808;
+}
+
+.red-circle {
+  background-color: #ed594a;
+}
+
+.yellow-circle {
+  background-color: #fdd800;
+}
+
+.green-circle {
+  background-color: #5ac05a;
+}
+
+//colors
+
+.green {
+  background-color: #05a66c;
+  color: #fff;
+
+  &:hover {
+    background-color: #059862;
+  }
+}
+
+.light-yellow-hover {
+  background-color: #fff4a3;
+
+  &:hover {
+    background-color: #fff080;
+  }
+}
+
+.light-yellow {
+  background-color: #fff4a3;
+}
+
+.yellow-smooth {
+  background-color: #eae098;
+
+  &:hover {
+    background-color: #fff4a3;
+  }
+}
+
+.black-hover {
+  background-color: #282a35;
+  color: #fff;
+
+  &:hover {
+    background-color: #000;
+  }
+}
+
+.black {
+  background-color: #282a35;
+  color: #fff;
+}
+
+.pink {
+  background-color: #ffc0c7;
+}
+
+.pink-hover {
+  background-color: #ffc0c7;
+
+  &:hover {
+    background-color: #ffb3bb;
+  }
+}
+
+.pink-smooth {
+  background-color: #f3ecea;;
+}
+
+.Blackish-pink {
+  background-color: #eab1b8;
+
+  &:hover {
+    background-color: #ffc0c7;
+  }
+}
+
+.sky-blue {
+  background-color: #96d4d4;
+}
+
+.cyan {
+  background-color: #8bc3c4;
+
+  &:hover {
+    background-color: #96d4d4;
+  }
+}
+
+.white {
+  background-color: #fff;
+  color: #000;
+
+  &:hover {
+    background-color: #e7e9eb;
+  }
+}
+
+.white-smooth {
+  background-color: #dfd9d8;
+
+  &:hover {
+    background-color: #f3ecea;
+  }
+}
+
+.green-smooth {
+  background-color: #d9eee1;
+}
+
+.light-green {
+  background-color: #c8dbd0;
+
+  &:hover {
+    background-color: #d9eee1;
+  }
+}
+
+.blue {
+  color: #1028dd;
+}
+
+.light-blue {
+  background-color: #e7e9eb;
+}
+
+.black-color {
+  color: #000;
+}
+
+//font size
+.fs-4 {
+  font-size: 3.8em; 
+}
+
+.fs-3 {
+  font-size: 3.5em;
+}
+
+.fs-5 {
+  font-size: 3.8em;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.code-fs {
+  font-size: 0.9em;
+}
+
+.code-mr {
+  margin-right: 0.5em;
+}
+
+.code-mb {
+  margin-bottom: 0.25em;
+}
+
+.css-code-mb {
+  margin-bottom: 0.5em;
+}
+
+.html-code-wrapper {
+
+  &:before {
+    content: ' \003C';
+    color: #1028dd;
+  }
+
+  &:after {
+    content: ' \003E';
+    color: #1028dd;
+    margin-left: -0.55em;
+  }
+}
+
+.css-left-curly-bracket:after {
+  content: ' \007B';
+  color: #000;
+}
+
+.css-right-curly-bracket:after {
+  content: ' \007D';
+  color: #000;
+}
+
+.css-code-ml {
+  margin-left: 1.3em;
+}
+
+.css-curly-bracket-mb {
+  margin-bottom: 1.7em;
+}
+
+.link {
+  margin-bottom: 1.5em;
+  font-size: 1.1em;
+  font-weight: 600;
+  padding: 0.75em 0;
+  border-radius: 2em;
+  width: 11.6em;
+  display: inline-block;
+  text-align: center;
+}
+
+.circle {
+  border-radius: 2em;
+  width: 1em;
+  display: inline-block;
+  height: 1em;
+  margin-right: 0.4em;
+}
+
+.active-btn {
+  background-color: #E7E9EB;
+}
+
+.inactive-btn {
+  background-color: transparent;
+}
+
+.avg-style-gif {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-bottom-left-radius: 0.2em;
+  border-bottom-right-radius: 0.2em;
+}
+
+.main {
+  min-width: 21em;
+}
+
+//lessons section
+.lessons {
+
+  //left content styles
+  &-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2.5em 0 4em 0;
+  }
+
+  &-left-content {
+    text-align: center; 
+  }
+
+  &-left-title {
+    font-weight: 700;
+    margin-bottom: 0.3em;
+  }
+
+  &-left-introduction {
+    font-size: 1.2em;
+    font-weight: 600;
+    padding-bottom: 1.3em;
+  } 
+
+  //right contents styles
+  &-right-content {
+    background-color: #e7e9eb;
+    box-shadow: 2px 4px 10px 0 rgba(0,0,0,0.15);
+    padding: 1em;
+    border-radius: 0.3em;
+    width: 100%;
+    display: none;
+    text-align: start;
+    margin-top: 1em;
+    color: #000;
+  }
+
+  &-right-codeBoard-title {
+    margin: 0.6em 0 0.8em 0;
+    font-size: 1.6em;
+    font-weight: 600;
+  }
+
+  &-right-general-codeBoard {
+    height: 18em;
+    background-color: #fff;
+    border-left: 4px solid #04AA6D;
+    padding: 15px 0 0 15px;
+  }
+
+  &-right-try-it-link {
+    padding: 0.75em 0;
+    color: #fff;
+    text-align: center;
+    margin-top: 1em;
+    width: 11.4em;
+    border-radius: 2em;
+    font-size: 1.1em;
+    display: inline-block;
+    font-weight: 600;
+  }
+
+  &-right-code-space-wrapper {
+    font-family: "Courier New";
+  }
+}
+
+//cards section
+.cards {
+  padding: 5em 1em;
+
+  &-section {
+    color: black;
+    border-radius: 0.3em;
+    margin-bottom: 1.1em;
+    padding: 0 1em;
+    min-width: 14em;
+  }
+
+  &-content-wrapper {
+    padding: 2.5em 0 0.9em 0;
+  }
+
+  &-title {
+    font-size: 2.8em;
+    font-weight: 700;
+    margin-bottom: 0.4em;
+  }
+
+  &-introduction-wrapper {
+    height: 4em;
+  } 
+
+  &-introduction {
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #3a3a3a;
+  }
+}
+
+//tutorials section
+.tutorials {
+  background-color: #282a35;
+
+  &-container {
+    padding: 0.5em 1em;
+  }
+
+  &-btn-wrapper {
+    width: 100%;
+    margin-bottom: 1.4em;
+  }
+
+  &-btn {
+    font-size: 1.8em;
+    width: 100%;
+    display: block;
+    border-radius: 0.2em;
+    padding: 1.5em 0;
+    font-weight: 600;
+
+    &-diff-styles {
+      padding: 1.8em 0;
+    }
+
+    &-small-word {
+      font-size: 0.8em;
+    }
+  }
+}
+
+//code editor section
+.code-editor {
+  padding: 6em 1em;
+  
+  &--container {
+    max-width: 60em;
+    margin: 0 auto;
+  }
+
+  &--title {
+    font-size: 3.8em;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.5em;
+  }
+
+  &--introduction {
+    font-weight: 600;
+    font-size: 1.25em;
+    margin: 1em 0 2.8em 0;
+    line-height: 1.5em;
+  }
+
+  &--wrapper {
+    text-align: start;
+    min-width: 20em;
+  }
+
+  &--header {
+    display: flex;
+    padding: 0.8em;
+    background: #f1f1f1;
+    border-top-left-radius: 0.2em;
+    border-top-right-radius: 0.2em;
+  }
+
+  &--circles-wrapper {
+    width: 25%;
+  }
+
+  &--input-wrapper {
+    width: 80%;
+  }
+
+  &--input {
+    width: 80%;
+    border-radius: 3px;
+    border: none;
+    background-color: white;
+    height: 1em;
+    color: #666;
+    font-size: 0.9em;
+    padding: 0.3em;
+    font-weight: 600;
+    margin-top: -1em;
+  }
+
+  &--buttons-wrapper {
+    background-color: #f1f1f1;
+  }
+  
+  &--btn {
+    border: none;
+    padding: 0.6em 1em;
+    font-weight: 600;
+    font-size: 1.05em;
+    cursor: pointer;
+  }
+
+  &--btn-hover {
+    &:hover {
+      background-color: #E7E9EB;
+    }
+  } 
+
+  .img2 {
+    display: none;
+  }
+
+  &--front-link-wrapper {
+    margin: 1.5em 0;
+  }
+
+  &--link {
+    padding: 0.6em 1em;
+    border-radius: 0.3em;
+    display: block;
+    font-weight: 600;
+    font-size: 1.1em;
+  }
+}
+
+//w3schools spaces section
+.w3schools-spaces {
+  padding: 2em 1em 6em 1em;
+
+  &--container {
+    max-width: 53em;
+    margin: 0 auto;
+  }
+
+  &--title {
+    margin: 0;
+    font-size: 3.8em;
+    font-weight: 700;
+    line-height: 1.5em; 
+  }
+
+  &--first-introduction {
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 1.5em;
+    margin: 0.5em 0 0.3em 0;
+
+    &-link {
+      text-decoration: underline;
+      color: #fbbdc4;
+
+      &:hover {
+        color: #069661;
+      }
+    }
+  }
+
+  &--second-introduction {
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 1.5em;
+  }
+
+  &--img-wrapper {
+    margin: 3em 0 5em 0;
+  }
+
+  &--link {
+    font-size: 1.3em;
+    font-weight: 500;
+    padding: 0.8em 0;
+    border-radius: 2em;
+    display: inline-block;
+    width: 14.5em;
+  }
+}
+
+//my learning section
+.my-learning {
+  padding: 4em 1em 6em 1em;
+  
+  &-container {
+    max-width: 60em;
+    margin: 0 auto;
+  }
+
+  &--title {
+    margin: 0;
+    font-size: 3.8em;
+    font-weight: 700;
+    line-height: 1.5em;
+  }
+
+  &--first-introduction {
+    font-size: 1.2em;
+    font-weight: 550;
+    line-height: 1.4em;
+    margin: 1em 0 0.8em 0;
+
+    &-strong {
+      font-weight: 700;
+    }
+  }
+
+  &--second-introduction {
+    font-size: 1.2em;
+    font-weight: 550;
+    line-height: 1.4em;
+  }
+  
+  &--img-wrapper {
+    margin: 1.4em 0 1.6em 0;
+  }
+
+  &--img {
+    max-width: 100%;
+  }
+
+  &--link {
+    font-size: 1.3em;
+    font-weight: 500;
+    padding: 0.8em 0;
+    border-radius: 2em;
+    display: inline-block;
+    width: 14.5em;
+  }
+}
+
+//plus user section
+.plus-user {
+
+  &--container {
+    padding: 6em 1em 7em 1em;
+  }
+
+  &--title {
+    margin: 0;
+    font-size: 3.8em;
+    font-weight: 700;
+  }
+
+  &--introduction {
+    color: #ffc0c7;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: 0.8em 0 1.5em 0;
+  }
+
+  &--list-wrapper {
+    text-align: start;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 2em 3em;
+  }
+
+  &--list {
+    line-height: 1.8em;
+    margin-bottom: 0.2em;
+    font-size: 1.1em;
+    font-weight: 600;
+  }
+
+  &--bold-text {
+    font-weight: 700;
+  }
+
+  &--list-img {
+    margin-right: 1em;
+    vertical-align: middle;
+  }
+
+  &--link {
+    font-size: 1.3em;
+    font-weight: 500;
+    padding: 0.8em 0;
+    border-radius: 2em;
+    display: inline-block;
+    width: 14.5em;
+  }
+}
+
+//color picker section
+.color-picker {
+
+  &--container {
+    padding: 5.5em 1em 5em 1em;
+  }
+  
+  &--title {
+    margin: 0;
+    font-size: 3.8em;
+    font-weight: 700;
+  }
+
+  &--introduction {
+    margin: 1.2em 0 1.5em 0;
+    font-size: 1.3em;
+    font-weight: 550;
+  }
+  
+  &--img-link:hover {
+    opacity: 0.5;
+  }
+}
+
+//code game section
+.code-game {
+
+  &--container {
+    padding: 4em 0 4em 0;
+  }
+  
+  &--title {
+    font-family: "Freckle Face";
+    margin: 0;
+    font-size: 3.8em;
+  }
+
+  &--introduction {
+    font-family: "Freckle Face";
+    font-size: 1.6em;
+    margin: 0.5em 0 1.4em 0;
+  }
+  
+  &--img-wrapper {
+    margin-bottom: 2.5em;
+  }
+
+  &--img-link:hover {
+    opacity: 0.5;
+  }
+
+  &--link {
+    padding: 0.8em 1em;
+    border-radius: 2em;
+    font-weight: 600;
+    font-size: 1.3em;
+    width: 8em;
+    display: inline-block;
+  }
+}
+
+//exercise section
+.exercise {
+
+  &-container {
+    padding: 4.5em 0 4.5em 0;
+  }
+
+  &-title {
+    font-size: 4em;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+
+  &-introduction {
+    font-size: 1.3em;
+    font-weight: 500;
+    margin: 1em 0 2.5em 0;
+  }
+
+  &-item-wrapper {
+    display: grid;
+    grid-template-columns: 0.75fr;
+    justify-content: center;
+    grid-template-rows: 12em 12em;
+    grid-gap: 2.3em 0;
+  }
+
+  &-item {
+
+    &-link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2.2em;
+      font-weight: 550;
+      width: 100%;
+      height: 100%;
+      border-radius: 0.1em;
+    }
+  }
+}
+
+//web tamplate section
+.web-template {
+
+  &--container {
+    padding: 5em 1.5em;
+  }
+
+  &--title {
+    margin: 0;
+    font-size: 3.75em;
+    font-weight: 700;
+  }
+
+  &--introduction {
+    font-size: 1.25em;
+    font-weight: 500;
+    margin: 1.2em 0 1.5em 0;
+    line-height: 1.5;
+  }
+
+  &--img-wrapper {
+    max-width: 100%;
+    margin: 0 auto 2.5em;
+  }
+
+  &--img {
+    width: 100%;
+  }
+
+  &--link {
+    font-size: 1.25em;
+    font-weight: 500;
+    display: block;
+    padding: 1em 0;
+    border-radius: 1em;
+  }
+}
+
+//career section
+.career {
+
+  &-container {
+    padding: 4em 3em;
+    position: relative;
+  }
+
+  &-title {
+    font-size: 3.4em;
+    text-align: start;
+    color: #ffc0c7;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+
+  &-introduction {
+    font-size: 2.5em;
+    color: #ffc0c7;
+    text-align: start;
+    font-weight: 600;
+    line-height: 1.4;
+    margin: 1em 0 1em 0;
+  }
+
+  &-link {
+    font-size: 1.25em;
+    font-weight: 500;
+    padding: 1em 0;
+    display: block;
+    border-radius: 2em;
+  }
+
+  &-img-wrapper {
+    position: absolute;
+    max-width: 6.3em;
+    top: -2.5em;
+    right: 5em;
+  }
+
+  &-img {
+    transform: rotate(10deg);
+    width: 100%;
+  }
+
+  &-arrow-img-wrapper {
+    display: none;
+    position: absolute;
+    top: 23.5em;
+    right: 12em;
+  }
+}
+
+//how-to section
+.how-section {
+
+  &--container {
+    padding: 6em 1.5em 6em;
+  }
+
+  &--title {
+    font-size: 3.8em;
+    font-weight: 700;
+  }
+
+  &--introduction {
+    font-size: 1.25em;
+    font-weight: 600;
+    margin: 1.35em 0 1.2em;
+  }
+
+  &--caption {
+    font-size: 1.03em;
+    font-weight: 600;
+  }
+
+  &--desktop-display {
+    margin-top: 2.35em; 
+    text-align: start; 
+
+    &-header {
+      display: flex;
+      padding: 0.8em;
+      background: #f1f1f1;
+      border-top-left-radius: 0.2em;
+      border-top-right-radius: 0.2em;
+      min-width: 18em;
+    }
+  }
+  
+  &--circles-wrapper {
+    width: 25%;
+  }
+
+  &--input-wrapper {
+    width: 80%;
+  }
+
+  &--input {
+    width: 80%;
+    border-radius: 3px;
+    border: none;
+    background-color: white;
+    height: 1em;
+    color: #666;
+    font-size: 0.9em;
+    padding: 0.3em;
+    font-weight: 600;
+    margin-top: -1em;
+  }
+
+  &--column {
+    height: 3em;
+    width: 3em;
+    margin: 0 auto;
+  }
+
+  &--link {
+    font-size: 1.25em;
+    font-weight: 500;
+    display: block;
+    padding: 1em 0;
+    border-radius: 1em;
+  } 
+}
+
+//responsive
+@media (min-width:601px) {
+  .lessons {
+
+    &-section { 
+      padding: 1em 2em 3.5em 2em;
+    }
+
+    &-right-content {
+      display: block ;
+    }
+  }
+
+  .cards {
+    padding: 5em 1.2em;
+
+    &-section {
+      margin-bottom: 1.4em;
+    }
+  }
+
+  .tutorials {
+
+    &-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 0 2em;
+    }
+
+    &-grid-child-styles {
+      grid-column: 1 / 3; 
+    }
+  }
+
+  .code-editor {
+    padding: 9em 1em;
+
+    &--title {
+      font-size: 4.1em;
+    }
+
+    &--front-link-wrapper {
+      margin: 2em 0 2.7em 0;
+    }
+
+    &--link {
+      display: inline;
+      padding: 0.4em 1em;
+    }
+  }
+
+  .w3schools-spaces {
+    padding: 0 1em 6em 1em;
+
+    &--title {
+      font-size: 4.1em;
+    }
+  }
+
+  .my-learning {
+    &--title {
+      font-size: 4.1em;
+    }
+  }
+
+  .plus-user {
+
+    &--introduction {
+      font-size: 1.6em;
+    }
+
+    &--list {
+      font-size: 1.2em;
+    }
+  }
+
+  .code-game {
+
+    &--introduction {
+      font-size: 2em;
+    }
+  }
+
+  .exercise {
+
+    &-container {
+      padding: 4.5em 1em;
+    }
+
+    &-item-wrapper {
+      grid-template-columns: 0.5fr 0.5fr;
+      grid-template-rows: 12em;
+      grid-gap: 0em 4em;
+      max-width: 78em;
+      margin: 0 auto;
+      padding: 0 2.3em;
+    }
+  }
+
+  .web-template { 
+
+    &--link {
+      display: inline-block;
+      width: 50%;
+    }
+  }
+
+  .career {
+
+    &-container {
+      text-align: start;
+    }
+
+    &-introduction {
+      font-size: 3.25em;
+    }
+    
+    &-img-wrapper {
+      max-width: 9.3em;
+      top: 26.4em;
+      right: 5em;
+    }
+
+    &-link {
+      width: 10em;
+      text-align: center;
+    }
+  }
+
+  .how-section {
+
+    &--link {
+      display: inline-block;
+      width: 50%;
+    }
+  }
+
+}
+@media (min-width:769px) {
+  .fs-4 {
+    font-size: 4.4em;
+  }
+
+  .fs-3 {
+    font-size: 6.2em;
+  }
+
+  .fs-5 {
+    font-size: 5em;
+  }
+
+  .cards {
+    padding: 5em 2em;
+
+    &-section {
+      margin-bottom: 2em;
+    }
+  }
+
+  .plus-user {
+
+    &--title {
+      font-size: 3.2em;
+    }
+  }
+
+  .color-picker {
+
+    &--title {
+      font-size: 4em;
+    }
+  }
+
+  .code-game {
+
+    &--title {
+      font-size: 3em;
+    }
+  }
+
+  .exercise {
+
+    &-item-wrapper {
+      grid-gap: 0 5em; 
+    }
+  }
+
+  .web-template {
+
+    &--title {
+      font-size: 4.05em;
+    }
+  }
+}
+@media (min-width:801px) {
+  .career {
+
+    &-title {
+      font-size: 3.9em;
+    }
+
+    &-arrow-img-wrapper {
+      display: inline-block;
+    }
+  }
+}
+@media (min-width:910px) {
+  .career {
+
+    &-img-wrapper {
+      top: 22.4em;
+      right: 5em;
+    }
+
+    &-arrow-img-wrapper {
+      top: 19.5em;
+      right: 12em;
+    }
+  }
+}
+@media (min-width:992px) {
+  .lessons {
+
+    &-section {
+      flex-direction: row;
+      padding: 2.5em 0;
+    }
+
+    &-left-content {
+      margin: 0 3em 3em 0;
+      width: 30em;
+    }
+
+    &-right-content {
+      width: 25em;
+      margin-top: 0;
+    } 
+  } 
+
+  .cards {
+    padding: 5em 0;
+
+    &-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 2em 5em;
+      justify-content: center;
+      max-width: 80em;
+      margin: 0 auto;
+      padding: 0 2em;
+    }
+  }
+
+  .tutorials {
+
+    &-container {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      max-width: 80em;
+      margin: 0 auto;
+      gap: 2em 5em;
+      padding: 0 2em;
+    }
+
+    &-grid-col-styles {
+      grid-column: 3 / 5; 
+    }
+  }
+
+  .exercise {
+  
+    &-item-wrapper {
+      grid-gap: 0 7em; 
+    }
+  }
+
+  .web-template {
+
+    &--img-wrapper {
+      max-width: 62em;
+    }
+  }
+
+  .career {
+    
+    &-container {
+      max-width: 80em;
+      margin: 0 auto;
+    }
+
+    &-img-wrapper {
+      max-width: 14.3em;
+      top: 19.4em;
+      right: 5em;
+    }
+
+    &-arrow-img-wrapper {
+      top: 18em;
+      right: 16em;
+    }
+  }
+
+  .how-section {
+
+    &--container {
+      width: 58em;
+      margin: 0 auto;
+    }
+  }
+}
+@media screen and (max-width: 1080px) and (min-width: 992px) {
+  .tutorials {
+
+    &-btn-hidden-word {
+      display: none;  
+    }
+  }
+}
